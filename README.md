@@ -45,8 +45,10 @@ $ sudo apt install -y libsgx-launch
 $ ctest
 Test project /mnt/sgx/openenclave/build
         Start   1: samples
-        ...
-        
+        ... snip ...
+	100% tests passed, 0 tests failed out of 760
+
+Total Test time (real) = 675.24 sec
 ```
 
 # 5. Test it
