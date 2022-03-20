@@ -42,6 +42,9 @@ $ make -j4
 $ cmake -G "Unix Makefiles" -DCMAKE_INSTALL_PREFIX=/usr/local ..
 $ sudo make install
 $ sudo apt install -y libsgx-launch
+```
+[!ctest](https://github.com/developer-onizuka/Intel_SGX-1/blob/main/result_ctest.txt)
+```
 $ ctest
 Test project /mnt/sgx/openenclave/build
         Start   1: samples
