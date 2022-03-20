@@ -1,0 +1,1546 @@
+Test project /mnt/sgx/openenclave/build
+        Start   1: samples
+  1/760 Test   #1: samples ...............................................................................................................................   Passed   67.17 sec
+        Start   2: tests/mem
+  2/760 Test   #2: tests/mem .............................................................................................................................   Passed    0.00 sec
+        Start   3: tests/safecrt
+  3/760 Test   #3: tests/safecrt .........................................................................................................................   Passed    0.12 sec
+        Start   4: tests/safemath
+  4/760 Test   #4: tests/safemath ........................................................................................................................   Passed    0.01 sec
+        Start   5: tests/str
+  5/760 Test   #5: tests/str .............................................................................................................................   Passed    0.00 sec
+        Start   6: tests/logging
+  6/760 Test   #6: tests/logging .........................................................................................................................   Passed    0.00 sec
+        Start   7: tests/tools/oeapkman/sqlite
+  7/760 Test   #7: tests/tools/oeapkman/sqlite ...........................................................................................................   Passed    0.05 sec
+        Start   8: tests/tools/oeapkman/zlib
+  8/760 Test   #8: tests/tools/oeapkman/zlib .............................................................................................................   Passed    0.10 sec
+        Start   9: tests/oesign-digest-valid-short-args
+  9/760 Test   #9: tests/oesign-digest-valid-short-args ..................................................................................................   Passed    0.17 sec
+        Start  10: tests/oesign-digest-valid-long-args
+ 10/760 Test  #10: tests/oesign-digest-valid-long-args ...................................................................................................   Passed    0.17 sec
+        Start  11: tests/oesign-digest-valid-dev-config-args
+ 11/760 Test  #11: tests/oesign-digest-valid-dev-config-args .............................................................................................   Passed    0.17 sec
+        Start  12: tests/oesign-digest-missing-enclave-arg
+ 12/760 Test  #12: tests/oesign-digest-missing-enclave-arg ...............................................................................................   Passed    0.00 sec
+        Start  13: tests/oesign-digest-missing-digest-arg
+ 13/760 Test  #13: tests/oesign-digest-missing-digest-arg ................................................................................................   Passed    0.00 sec
+        Start  14: tests/oesign-digest-sign-missing-enclave-arg
+ 14/760 Test  #14: tests/oesign-digest-sign-missing-enclave-arg ..........................................................................................   Passed    0.00 sec
+        Start  15: tests/oesign-digest-sign-missing-x509-arg
+ 15/760 Test  #15: tests/oesign-digest-sign-missing-x509-arg .............................................................................................   Passed    0.00 sec
+        Start  16: tests/oesign-digest-sign-missing-digest-sig-arg
+ 16/760 Test  #16: tests/oesign-digest-sign-missing-digest-sig-arg .......................................................................................   Passed    0.00 sec
+        Start  17: tests/oesign-digest-sign-conflicting-key-file-arg
+ 17/760 Test  #17: tests/oesign-digest-sign-conflicting-key-file-arg .....................................................................................   Passed    0.00 sec
+        Start  18: tests/oesign-digest-sign-mismatched-x509
+ 18/760 Test  #18: tests/oesign-digest-sign-mismatched-x509 ..............................................................................................   Passed    0.03 sec
+        Start  19: tests/oesign-digest-sign-new-debug-config
+ 19/760 Test  #19: tests/oesign-digest-sign-new-debug-config .............................................................................................   Passed    0.03 sec
+        Start  20: tests/oesign-digest-sign-new-num-heap-pages
+ 20/760 Test  #20: tests/oesign-digest-sign-new-num-heap-pages ...........................................................................................   Passed    0.03 sec
+        Start  21: tests/oesign-digest-sign-new-num-stack-pages
+ 21/760 Test  #21: tests/oesign-digest-sign-new-num-stack-pages ..........................................................................................   Passed    0.04 sec
+        Start  22: tests/oesign-digest-sign-new-num-tcs
+ 22/760 Test  #22: tests/oesign-digest-sign-new-num-tcs ..................................................................................................   Passed    0.07 sec
+        Start  23: tests/oesign-digest-sign-new-product-id
+ 23/760 Test  #23: tests/oesign-digest-sign-new-product-id ...............................................................................................   Passed    0.03 sec
+        Start  24: tests/oesign-digest-sign-new-security-version
+ 24/760 Test  #24: tests/oesign-digest-sign-new-security-version .........................................................................................   Passed    0.03 sec
+        Start  25: tests/oesign-digest-sign-alt-enclave
+ 25/760 Test  #25: tests/oesign-digest-sign-alt-enclave ..................................................................................................   Passed    0.03 sec
+        Start  26: tests/oesign-sign-valid-short-args
+ 26/760 Test  #26: tests/oesign-sign-valid-short-args ....................................................................................................   Passed    0.14 sec
+        Start  27: tests/oesign-sign-valid-long-args
+ 27/760 Test  #27: tests/oesign-sign-valid-long-args .....................................................................................................   Passed    0.14 sec
+        Start  28: tests/oesign-sign-invalid-config-file
+ 28/760 Test  #28: tests/oesign-sign-invalid-config-file .................................................................................................   Passed    0.00 sec
+        Start  29: tests/oesign-sign-invalid-key-file
+ 29/760 Test  #29: tests/oesign-sign-invalid-key-file ....................................................................................................   Passed    0.03 sec
+        Start  30: tests/oesign-sign-duplicate-debug-config
+ 30/760 Test  #30: tests/oesign-sign-duplicate-debug-config ..............................................................................................   Passed    0.00 sec
+        Start  31: tests/oesign-sign-duplicate-num-heap-pages-config
+ 31/760 Test  #31: tests/oesign-sign-duplicate-num-heap-pages-config .....................................................................................   Passed    0.00 sec
+        Start  32: tests/oesign-sign-duplicate-num-stack-pages-config
+ 32/760 Test  #32: tests/oesign-sign-duplicate-num-stack-pages-config ....................................................................................   Passed    0.00 sec
+        Start  33: tests/oesign-sign-duplicate-num-tcs-config
+ 33/760 Test  #33: tests/oesign-sign-duplicate-num-tcs-config ............................................................................................   Passed    0.00 sec
+        Start  34: tests/oesign-sign-duplicate-product-id-config
+ 34/760 Test  #34: tests/oesign-sign-duplicate-product-id-config .........................................................................................   Passed    0.00 sec
+        Start  35: tests/oesign-sign-duplicate-security-version-config
+ 35/760 Test  #35: tests/oesign-sign-duplicate-security-version-config ...................................................................................   Passed    0.00 sec
+        Start  36: tests/oesign-sign-invalid-key-exp
+ 36/760 Test  #36: tests/oesign-sign-invalid-key-exp .....................................................................................................   Passed    0.03 sec
+        Start  37: tests/oesign-sign-negative-num-heap-pages
+ 37/760 Test  #37: tests/oesign-sign-negative-num-heap-pages .............................................................................................   Passed    0.00 sec
+        Start  38: tests/oesign-sign-empty-config
+ 38/760 Test  #38: tests/oesign-sign-empty-config ........................................................................................................   Passed    0.00 sec
+        Start  39: tests/oesign-sign-debug-out-of-range
+ 39/760 Test  #39: tests/oesign-sign-debug-out-of-range ..................................................................................................   Passed    0.00 sec
+        Start  40: tests/oesign-sign-lowercase-debug-property
+ 40/760 Test  #40: tests/oesign-sign-lowercase-debug-property ............................................................................................   Passed    0.00 sec
+        Start  41: tests/oesign-sign-valid-kss
+ 41/760 Test  #41: tests/oesign-sign-valid-kss ...........................................................................................................   Passed    0.07 sec
+        Start  42: tests/oesign-sign-extprodid-toolong
+ 42/760 Test  #42: tests/oesign-sign-extprodid-toolong ...................................................................................................   Passed    0.00 sec
+        Start  43: tests/oesign-sign-extprodid-tooshort
+ 43/760 Test  #43: tests/oesign-sign-extprodid-tooshort ..................................................................................................   Passed    0.00 sec
+        Start  44: tests/oesign-sign-familyid-toolong
+ 44/760 Test  #44: tests/oesign-sign-familyid-toolong ....................................................................................................   Passed    0.00 sec
+        Start  45: tests/oesign-sign-familyid-tooshort
+ 45/760 Test  #45: tests/oesign-sign-familyid-tooshort ...................................................................................................   Passed    0.00 sec
+        Start  46: tests/oesign-create-zero-base
+ 46/760 Test  #46: tests/oesign-create-zero-base .........................................................................................................   Passed    0.04 sec
+        Start  47: tests/oesign-create-zero-base-start-address
+ 47/760 Test  #47: tests/oesign-create-zero-base-start-address ...........................................................................................   Passed    0.04 sec
+        Start  48: tests/oesign-engine-valid-short-args
+ 48/760 Test  #48: tests/oesign-engine-valid-short-args ..................................................................................................   Passed    0.14 sec
+        Start  49: tests/oesign-engine-valid-long-args
+ 49/760 Test  #49: tests/oesign-engine-valid-long-args ...................................................................................................   Passed    0.14 sec
+        Start  50: tests/oesign-engine-invalid-load-path
+ 50/760 Test  #50: tests/oesign-engine-invalid-load-path .................................................................................................   Passed    0.03 sec
+        Start  51: tests/oesign-engine-invalid-engine
+ 51/760 Test  #51: tests/oesign-engine-invalid-engine ....................................................................................................   Passed    0.03 sec
+        Start  52: tests/oesign-engine-invalid-key-id
+ 52/760 Test  #52: tests/oesign-engine-invalid-key-id ....................................................................................................   Passed    0.03 sec
+        Start  53: tests/oesign-engine-missing-engine-arg
+ 53/760 Test  #53: tests/oesign-engine-missing-engine-arg ................................................................................................   Passed    0.00 sec
+        Start  54: tests/oesign-engine-missing-key-id-arg
+ 54/760 Test  #54: tests/oesign-engine-missing-key-id-arg ................................................................................................   Passed    0.00 sec
+        Start  55: tests/oesign-engine-conflicting-key-file-arg
+ 55/760 Test  #55: tests/oesign-engine-conflicting-key-file-arg ..........................................................................................   Passed    0.00 sec
+        Start  56: tests/oesign-engine-conflicting-digest-signature-arg
+ 56/760 Test  #56: tests/oesign-engine-conflicting-digest-signature-arg ..................................................................................   Passed    0.00 sec
+        Start  57: tests/oesign-engine-conflicting-x509-arg
+ 57/760 Test  #57: tests/oesign-engine-conflicting-x509-arg ..............................................................................................   Passed    0.00 sec
+        Start  58: tests/oesign-engine-invalid-key-exp
+ 58/760 Test  #58: tests/oesign-engine-invalid-key-exp ...................................................................................................   Passed    0.03 sec
+        Start  59: tests/sgx/td_state
+ 59/760 Test  #59: tests/sgx/td_state ....................................................................................................................   Passed    0.18 sec
+        Start  60: tests/sgx/thread_interrupt_nonblocking
+ 60/760 Test  #60: tests/sgx/thread_interrupt_nonblocking ................................................................................................   Passed    0.69 sec
+        Start  61: tests/sgx/thread_interrupt_blocking
+ 61/760 Test  #61: tests/sgx/thread_interrupt_blocking ...................................................................................................   Passed    0.69 sec
+        Start  62: tests/sgx/extra_data
+ 62/760 Test  #62: tests/sgx/extra_data ..................................................................................................................   Passed    0.04 sec
+        Start  63: tests/sgx/extra_data_with_zerobase
+ 63/760 Test  #63: tests/sgx/extra_data_with_zerobase ....................................................................................................***Skipped   0.00 sec
+        Start  64: tests/sgx/wrfsbase
+ 64/760 Test  #64: tests/sgx/wrfsbase ....................................................................................................................   Passed    0.08 sec
+        Start  65: tests/sgx/wrfsbase_negative
+ 65/760 Test  #65: tests/sgx/wrfsbase_negative ...........................................................................................................   Passed    0.08 sec
+        Start  66: oegdb-test
+ 66/760 Test  #66: oegdb-test ............................................................................................................................   Passed    0.79 sec
+        Start  67: oegdb-test-simulation-mode
+ 67/760 Test  #67: oegdb-test-simulation-mode ............................................................................................................   Passed    0.49 sec
+        Start  68: oelldb-test
+ 68/760 Test  #68: oelldb-test ...........................................................................................................................   Passed    0.79 sec
+        Start  69: oelldb-test-simulation-mode
+ 69/760 Test  #69: oelldb-test-simulation-mode ...........................................................................................................   Passed    0.58 sec
+        Start  70: tests/host_verify
+ 70/760 Test  #70: tests/host_verify .....................................................................................................................   Passed    0.00 sec
+        Start  71: tests/invalid_image
+ 71/760 Test  #71: tests/invalid_image ...................................................................................................................   Passed    0.00 sec
+        Start  72: tests/config_id_unsigned_no_kss_flags
+ 72/760 Test  #72: tests/config_id_unsigned_no_kss_flags .................................................................................................   Passed    0.04 sec
+        Start  73: tests/config_id_unsigned_with_kss_flags
+ 73/760 Test  #73: tests/config_id_unsigned_with_kss_flags ...............................................................................................   Passed    0.01 sec
+        Start  74: tests/config_id_signed_no_kss_flags
+ 74/760 Test  #74: tests/config_id_signed_no_kss_flags ...................................................................................................   Passed    0.12 sec
+        Start  75: tests/config_id_kss_signed_with_kss_flags
+ 75/760 Test  #75: tests/config_id_kss_signed_with_kss_flags .............................................................................................   Passed    0.01 sec
+        Start  76: tests/config_id_signed_no_kss_conf_flags
+ 76/760 Test  #76: tests/config_id_signed_no_kss_conf_flags ..............................................................................................   Passed    0.12 sec
+        Start  77: tests/switchless_ocalls
+ 77/760 Test  #77: tests/switchless_ocalls ...............................................................................................................   Passed    1.79 sec
+        Start  78: tests/switchless_ecalls
+ 78/760 Test  #78: tests/switchless_ecalls ...............................................................................................................   Passed    4.84 sec
+        Start  79: tests/switchless_atexit_calls
+ 79/760 Test  #79: tests/switchless_atexit_calls .........................................................................................................   Passed    0.07 sec
+        Start  80: tests/switchless_threads
+ 80/760 Test  #80: tests/switchless_threads ..............................................................................................................   Passed    0.08 sec
+        Start  81: tests/switchless_nestedcalls
+ 81/760 Test  #81: tests/switchless_nestedcalls ..........................................................................................................   Passed    0.06 sec
+        Start  82: tests/switchless_worksleep
+ 82/760 Test  #82: tests/switchless_worksleep ............................................................................................................   Passed    2.13 sec
+        Start  83: tests/switchless_one_tcs
+ 83/760 Test  #83: tests/switchless_one_tcs ..............................................................................................................   Passed    0.03 sec
+        Start  84: tests/snmalloc
+ 84/760 Test  #84: tests/snmalloc ........................................................................................................................   Passed    0.14 sec
+        Start  85: pluggable_allocators_expected_multiple_definition_error
+ 85/760 Test  #85: pluggable_allocators_expected_multiple_definition_error ...............................................................................   Passed    0.97 sec
+        Start  86: tests/debug_malloc
+ 86/760 Test  #86: tests/debug_malloc ....................................................................................................................   Passed    0.07 sec
+        Start  87: tests/memory
+ 87/760 Test  #87: tests/memory ..........................................................................................................................   Passed   46.05 sec
+        Start  88: tests/mbedtls_tls_e2e
+ 88/760 Test  #88: tests/mbedtls_tls_e2e .................................................................................................................***Skipped   0.00 sec
+        Start  89: tests/openssl_tls_e2e
+ 89/760 Test  #89: tests/openssl_tls_e2e .................................................................................................................***Skipped   0.00 sec
+        Start  90: tests/abi
+ 90/760 Test  #90: tests/abi .............................................................................................................................   Passed    0.08 sec
+        Start  91: tests/abortStatus
+ 91/760 Test  #91: tests/abortStatus .....................................................................................................................   Passed    4.17 sec
+        Start  92: tests/argv
+ 92/760 Test  #92: tests/argv ............................................................................................................................   Passed    0.12 sec
+        Start  93: tests/atexit_ocall_single
+ 93/760 Test  #93: tests/atexit_ocall_single .............................................................................................................   Passed    0.08 sec
+        Start  94: tests/atexit_ocall_multiple
+ 94/760 Test  #94: tests/atexit_ocall_multiple ...........................................................................................................   Passed    0.08 sec
+        Start  95: tests/atexit_ocall_ecall
+ 95/760 Test  #95: tests/atexit_ocall_ecall ..............................................................................................................   Passed    0.08 sec
+        Start  96: tests/attestation_cert_api_mbedtls
+ 96/760 Test  #96: tests/attestation_cert_api_mbedtls ....................................................................................................***Skipped   0.00 sec
+        Start  97: tests/attestation_cert_api_openssl
+ 97/760 Test  #97: tests/attestation_cert_api_openssl ....................................................................................................***Skipped   0.00 sec
+        Start  98: tests/attestation_plugin_mbedtls
+ 98/760 Test  #98: tests/attestation_plugin_mbedtls ......................................................................................................***Skipped   0.00 sec
+        Start  99: tests/attestation_plugin_openssl
+ 99/760 Test  #99: tests/attestation_plugin_openssl ......................................................................................................***Skipped   0.00 sec
+        Start 100: tests/attestation_plugin_cert_mbedtls
+100/760 Test #100: tests/attestation_plugin_cert_mbedtls .................................................................................................***Skipped   0.00 sec
+        Start 101: tests/attestation_plugin_cert_openssl
+101/760 Test #101: tests/attestation_plugin_cert_openssl .................................................................................................***Skipped   0.00 sec
+        Start 102: tests/backtrace
+102/760 Test #102: tests/backtrace .......................................................................................................................   Passed    0.13 sec
+        Start 103: tests/bigmalloc
+103/760 Test #103: tests/bigmalloc .......................................................................................................................***Skipped   0.00 sec
+        Start 104: tests/child_thread_ecall
+104/760 Test #104: tests/child_thread_ecall ..............................................................................................................   Passed    0.22 sec
+        Start 105: tests/child_thread_destroy
+105/760 Test #105: tests/child_thread_destroy ............................................................................................................   Passed    0.22 sec
+        Start 106: tests/cppException
+106/760 Test #106: tests/cppException ....................................................................................................................   Passed    0.17 sec
+        Start 107: tests/crypto_crls_cert_chains
+107/760 Test #107: tests/crypto_crls_cert_chains .........................................................................................................   Passed    0.17 sec
+        Start 108: tests/custom_claims
+108/760 Test #108: tests/custom_claims ...................................................................................................................   Passed    0.12 sec
+        Start 109: tests/debug-unsigned
+109/760 Test #109: tests/debug-unsigned ..................................................................................................................   Passed    0.35 sec
+        Start 110: tests/debug-signed
+110/760 Test #110: tests/debug-signed ....................................................................................................................   Passed    0.23 sec
+        Start 111: tests/nodebug-signed
+111/760 Test #111: tests/nodebug-signed ..................................................................................................................   Passed    0.00 sec
+        Start 112: tests/nodebug-unsigned
+112/760 Test #112: tests/nodebug-unsigned ................................................................................................................   Passed    0.23 sec
+        Start 113: tests/ecall
+113/760 Test #113: tests/ecall ...........................................................................................................................   Passed    0.61 sec
+        Start 114: tests/ecall_conflict
+114/760 Test #114: tests/ecall_conflict ..................................................................................................................   Passed    0.10 sec
+        Start 115: tests/ecall_ocall
+115/760 Test #115: tests/ecall_ocall .....................................................................................................................   Passed    0.26 sec
+        Start 116: tests/echo
+116/760 Test #116: tests/echo ............................................................................................................................   Passed    0.12 sec
+        Start 117: tests/enclaveparam
+117/760 Test #117: tests/enclaveparam ....................................................................................................................   Passed    0.11 sec
+        Start 118: tests/file
+118/760 Test #118: tests/file ............................................................................................................................   Passed    0.57 sec
+        Start 119: tests/getenclave
+119/760 Test #119: tests/getenclave ......................................................................................................................   Passed    0.04 sec
+        Start 120: tests/ocall
+120/760 Test #120: tests/ocall ...........................................................................................................................   Passed    0.12 sec
+        Start 121: tests/libcxxtest-libcxx_containers_unord_next_pow2.pass
+121/760 Test #121: tests/libcxxtest-libcxx_containers_unord_next_pow2.pass ...............................................................................   Passed   50.34 sec
+        Start 122: tests/libcxxtest-libcxx_depr_depr.c.headers_complex.h.pass
+122/760 Test #122: tests/libcxxtest-libcxx_depr_depr.c.headers_complex.h.pass ............................................................................   Passed    0.22 sec
+        Start 123: tests/libcxxtest-libcxx_input.output_file.streams_c.files_version_ccstdio.pass
+123/760 Test #123: tests/libcxxtest-libcxx_input.output_file.streams_c.files_version_ccstdio.pass ........................................................   Passed    0.22 sec
+        Start 124: tests/libcxxtest-libcxx_input.output_file.streams_fstreams_version.pass
+124/760 Test #124: tests/libcxxtest-libcxx_input.output_file.streams_fstreams_version.pass ...............................................................   Passed    0.22 sec
+        Start 125: tests/libcxxtest-libcxx_thread_thread.threads_thread.thread.class_thread.thread.member_native_handle.pass
+125/760 Test #125: tests/libcxxtest-libcxx_thread_thread.threads_thread.thread.class_thread.thread.member_native_handle.pass .............................   Passed    0.23 sec
+        Start 126: tests/libcxxtest-libcxx_utilities_memory_util.smartptr_race_condition.pass
+126/760 Test #126: tests/libcxxtest-libcxx_utilities_memory_util.smartptr_race_condition.pass ............................................................   Passed    0.29 sec
+        Start 127: tests/libcxxtest-std_containers_associative_multimap_incomplete_type.pass
+127/760 Test #127: tests/libcxxtest-std_containers_associative_multimap_incomplete_type.pass .............................................................   Passed    0.22 sec
+        Start 128: tests/libcxxtest-std_containers_sequences_vector.bool_assign_move.pass
+128/760 Test #128: tests/libcxxtest-std_containers_sequences_vector.bool_assign_move.pass ................................................................   Passed    0.22 sec
+        Start 129: tests/libcxxtest-std_containers_unord_unord.multimap_unord.multimap.cnstr_copy.pass
+129/760 Test #129: tests/libcxxtest-std_containers_unord_unord.multimap_unord.multimap.cnstr_copy.pass ...................................................   Passed    0.22 sec
+        Start 130: tests/libcxxtest-std_diagnostics_syserr_syserr.errcat_syserr.errcat.objects_system_category.pass
+130/760 Test #130: tests/libcxxtest-std_diagnostics_syserr_syserr.errcat_syserr.errcat.objects_system_category.pass ......................................   Passed    0.22 sec
+        Start 131: tests/libcxxtest-std_language.support_support.dynamic_new.delete_new.delete.array_sized_delete_array14.pass
+131/760 Test #131: tests/libcxxtest-std_language.support_support.dynamic_new.delete_new.delete.array_sized_delete_array14.pass ...........................   Passed    0.22 sec
+        Start 132: tests/libcxxtest-std_language.support_support.general_nothing_to_do.pass
+132/760 Test #132: tests/libcxxtest-std_language.support_support.general_nothing_to_do.pass ..............................................................   Passed    0.22 sec
+        Start 133: tests/libcxxtest-std_localization_locale.categories_category.numeric_locale.nm.put_facet.num.put.members_put_bool.pass
+133/760 Test #133: tests/libcxxtest-std_localization_locale.categories_category.numeric_locale.nm.put_facet.num.put.members_put_bool.pass ................   Passed    0.24 sec
+        Start 134: tests/libcxxtest-std_strings_string.view_string.view.access_back.pass
+134/760 Test #134: tests/libcxxtest-std_strings_string.view_string.view.access_back.pass .................................................................   Passed    0.22 sec
+        Start 135: tests/libcxxtest-std_thread_futures_futures.promise_set_exception_at_thread_exit.pass
+135/760 Test #135: tests/libcxxtest-std_thread_futures_futures.promise_set_exception_at_thread_exit.pass .................................................   Passed    0.22 sec
+        Start 136: tests/libcxxtest-std_thread_futures_futures.promise_set_lvalue_at_thread_exit.pass
+136/760 Test #136: tests/libcxxtest-std_thread_futures_futures.promise_set_lvalue_at_thread_exit.pass ....................................................   Passed    0.22 sec
+        Start 137: tests/libcxxtest-std_thread_futures_futures.promise_set_rvalue_at_thread_exit.pass
+137/760 Test #137: tests/libcxxtest-std_thread_futures_futures.promise_set_rvalue_at_thread_exit.pass ....................................................   Passed    0.22 sec
+        Start 138: tests/libcxxtest-std_thread_futures_futures.promise_set_value_at_thread_exit_const.pass
+138/760 Test #138: tests/libcxxtest-std_thread_futures_futures.promise_set_value_at_thread_exit_const.pass ...............................................   Passed    0.22 sec
+        Start 139: tests/libcxxtest-std_thread_futures_futures.promise_set_value_at_thread_exit_void.pass
+139/760 Test #139: tests/libcxxtest-std_thread_futures_futures.promise_set_value_at_thread_exit_void.pass ................................................   Passed    0.22 sec
+        Start 140: tests/libcxxtest-std_thread_futures_futures.task_futures.task.members_make_ready_at_thread_exit.pass
+140/760 Test #140: tests/libcxxtest-std_thread_futures_futures.task_futures.task.members_make_ready_at_thread_exit.pass ..................................   Passed    1.23 sec
+        Start 141: tests/libcxxtest-std_thread_futures_futures.task_futures.task.members_operator.pass
+141/760 Test #141: tests/libcxxtest-std_thread_futures_futures.task_futures.task.members_operator.pass ...................................................   Passed    1.23 sec
+        Start 142: tests/libcxxtest-std_thread_thread.condition_thread.condition.condvar_wait.pass
+142/760 Test #142: tests/libcxxtest-std_thread_thread.condition_thread.condition.condvar_wait.pass .......................................................   Passed    0.22 sec
+        Start 143: tests/libcxxtest-std_thread_thread.condition_thread.condition.condvar_wait_pred.pass
+143/760 Test #143: tests/libcxxtest-std_thread_thread.condition_thread.condition.condvar_wait_pred.pass ..................................................   Passed    0.22 sec
+        Start 144: tests/libcxxtest-std_thread_thread.condition_thread.condition.condvarany_default.pass
+144/760 Test #144: tests/libcxxtest-std_thread_thread.condition_thread.condition.condvarany_default.pass .................................................   Passed    0.22 sec
+        Start 145: tests/libcxxtest-std_thread_thread.condition_thread.condition.condvarany_notify_all.pass
+145/760 Test #145: tests/libcxxtest-std_thread_thread.condition_thread.condition.condvarany_notify_all.pass ..............................................   Passed    0.44 sec
+        Start 146: tests/libcxxtest-std_thread_thread.mutex_thread.lock.algorithm_lock.pass
+146/760 Test #146: tests/libcxxtest-std_thread_thread.mutex_thread.lock.algorithm_lock.pass ..............................................................   Passed    0.25 sec
+        Start 147: tests/libcxxtest-std_thread_thread.mutex_thread.lock_thread.lock.guard_adopt_lock.pass
+147/760 Test #147: tests/libcxxtest-std_thread_thread.mutex_thread.lock_thread.lock.guard_adopt_lock.pass ................................................   Passed    0.49 sec
+        Start 148: tests/libcxxtest-std_thread_thread.mutex_thread.lock_thread.lock.guard_mutex.pass
+148/760 Test #148: tests/libcxxtest-std_thread_thread.mutex_thread.lock_thread.lock.guard_mutex.pass .....................................................   Passed    0.49 sec
+        Start 149: tests/libcxxtest-std_thread_thread.mutex_thread.lock_thread.lock.unique_thread.lock.unique.cons_mutex.pass
+149/760 Test #149: tests/libcxxtest-std_thread_thread.mutex_thread.lock_thread.lock.unique_thread.lock.unique.cons_mutex.pass ............................   Passed    0.48 sec
+        Start 150: tests/libcxxtest-std_thread_thread.mutex_thread.mutex.requirements_thread.mutex.requirements.mutex_thread.mutex.recursive_lock.pass
+150/760 Test #150: tests/libcxxtest-std_thread_thread.mutex_thread.mutex.requirements_thread.mutex.requirements.mutex_thread.mutex.recursive_lock.pass ...   Passed    0.48 sec
+        Start 151: tests/libcxxtest-std_thread_thread.mutex_thread.mutex.requirements_thread.timedmutex.requirements_thread.timedmutex.class_lock.pass
+151/760 Test #151: tests/libcxxtest-std_thread_thread.mutex_thread.mutex.requirements_thread.timedmutex.requirements_thread.timedmutex.class_lock.pass ...   Passed    0.49 sec
+        Start 152: tests/libcxxtest-std_thread_thread.mutex_thread.once_thread.once.callonce_call_once.pass
+152/760 Test #152: tests/libcxxtest-std_thread_thread.mutex_thread.once_thread.once.callonce_call_once.pass ..............................................   Passed    1.24 sec
+        Start 153: tests/libcxxtest-std_thread_thread.mutex_thread.once_thread.once.callonce_race.pass
+153/760 Test #153: tests/libcxxtest-std_thread_thread.mutex_thread.once_thread.once.callonce_race.pass ...................................................   Passed    0.22 sec
+        Start 154: tests/libcxxtest-std_thread_thread.threads_thread.thread.class_thread.thread.algorithm_swap.pass
+154/760 Test #154: tests/libcxxtest-std_thread_thread.threads_thread.thread.class_thread.thread.algorithm_swap.pass ......................................   Passed    0.22 sec
+        Start 155: tests/libcxxtest-std_thread_thread.threads_thread.thread.class_thread.thread.constr_move.pass
+155/760 Test #155: tests/libcxxtest-std_thread_thread.threads_thread.thread.class_thread.thread.constr_move.pass .........................................   Passed    0.22 sec
+        Start 156: tests/libcxxtest-std_thread_thread.threads_thread.thread.class_thread.thread.destr_dtor.pass
+156/760 Test #156: tests/libcxxtest-std_thread_thread.threads_thread.thread.class_thread.thread.destr_dtor.pass ..........................................   Passed    0.47 sec
+        Start 157: tests/libcxxtest-std_thread_thread.threads_thread.thread.class_thread.thread.member_detach.pass
+157/760 Test #157: tests/libcxxtest-std_thread_thread.threads_thread.thread.class_thread.thread.member_detach.pass .......................................   Passed    0.22 sec
+        Start 158: tests/libcxxtest-std_thread_thread.threads_thread.thread.class_thread.thread.member_get_id.pass
+158/760 Test #158: tests/libcxxtest-std_thread_thread.threads_thread.thread.class_thread.thread.member_get_id.pass .......................................   Passed    0.23 sec
+        Start 159: tests/libcxxtest-std_thread_thread.threads_thread.thread.class_thread.thread.member_join.pass
+159/760 Test #159: tests/libcxxtest-std_thread_thread.threads_thread.thread.class_thread.thread.member_join.pass .........................................   Passed    0.22 sec
+        Start 160: tests/libcxxtest-std_thread_thread.threads_thread.thread.class_thread.thread.member_joinable.pass
+160/760 Test #160: tests/libcxxtest-std_thread_thread.threads_thread.thread.class_thread.thread.member_joinable.pass .....................................   Passed    0.22 sec
+        Start 161: tests/libcxxtest-std_thread_thread.threads_thread.thread.class_thread.thread.member_swap.pass
+161/760 Test #161: tests/libcxxtest-std_thread_thread.threads_thread.thread.class_thread.thread.member_swap.pass .........................................   Passed    0.22 sec
+        Start 162: tests/libcxxtest-std_thread_thread.threads_thread.thread.this_yield.pass
+162/760 Test #162: tests/libcxxtest-std_thread_thread.threads_thread.thread.this_yield.pass ..............................................................   Passed    0.21 sec
+        Start 163: tests/libcxxtest-std_utilities_template.bitset_bitset.members_count.pass
+163/760 Test #163: tests/libcxxtest-std_utilities_template.bitset_bitset.members_count.pass ..............................................................   Passed    0.22 sec
+        Start 164: tests/libcxxrt/test_foreign_exceptions
+164/760 Test #164: tests/libcxxrt/test_foreign_exceptions ................................................................................................   Passed    0.12 sec
+        Start 165: tests/libcxxrt/test_guard
+165/760 Test #165: tests/libcxxrt/test_guard .............................................................................................................   Passed    0.12 sec
+        Start 166: tests/libcxxrt/test_guard-diff
+166/760 Test #166: tests/libcxxrt/test_guard-diff ........................................................................................................   Passed    0.13 sec
+        Start 167: tests/libcxxrt/test_typeinfo
+167/760 Test #167: tests/libcxxrt/test_typeinfo ..........................................................................................................   Passed    0.13 sec
+        Start 168: tests/libcxxrt/test_typeinfo-diff
+168/760 Test #168: tests/libcxxrt/test_typeinfo-diff .....................................................................................................   Passed    0.13 sec
+        Start 169: tests/libunwind/Gtest-exc
+169/760 Test #169: tests/libunwind/Gtest-exc .............................................................................................................   Passed    0.12 sec
+        Start 170: tests/libunwind/Gtest-init.cxx
+170/760 Test #170: tests/libunwind/Gtest-init.cxx ........................................................................................................   Passed    0.12 sec
+        Start 171: tests/libunwind/Ltest-exc
+171/760 Test #171: tests/libunwind/Ltest-exc .............................................................................................................   Passed    0.12 sec
+        Start 172: tests/libunwind/Ltest-init.cxx
+172/760 Test #172: tests/libunwind/Ltest-init.cxx ........................................................................................................   Passed    0.12 sec
+        Start 173: tests/libunwind/Ltest-varargs
+173/760 Test #173: tests/libunwind/Ltest-varargs .........................................................................................................   Passed    0.12 sec
+        Start 174: tests/libunwind/test-flush-cache
+174/760 Test #174: tests/libunwind/test-flush-cache ......................................................................................................   Passed    0.12 sec
+        Start 175: tests/libunwind/test-mem
+175/760 Test #175: tests/libunwind/test-mem ..............................................................................................................   Passed    0.12 sec
+        Start 176: tests/libunwind/test-static-link-loc
+176/760 Test #176: tests/libunwind/test-static-link-loc ..................................................................................................   Passed    0.12 sec
+        Start 177: tests/libunwind/test-strerror
+177/760 Test #177: tests/libunwind/test-strerror .........................................................................................................   Passed    0.12 sec
+        Start 178: tests/mbed/selftest
+178/760 Test #178: tests/mbed/selftest ...................................................................................................................   Passed    0.08 sec
+        Start 179: tests/mbed/aes.cbc
+179/760 Test #179: tests/mbed/aes.cbc ....................................................................................................................   Passed    0.08 sec
+        Start 180: tests/mbed/aes.ecb
+180/760 Test #180: tests/mbed/aes.ecb ....................................................................................................................   Passed    0.08 sec
+        Start 181: tests/mbed/aes.ofb
+181/760 Test #181: tests/mbed/aes.ofb ....................................................................................................................   Passed    0.08 sec
+        Start 182: tests/mbed/aes.rest
+182/760 Test #182: tests/mbed/aes.rest ...................................................................................................................   Passed    0.08 sec
+        Start 183: tests/mbed/aes.xts
+183/760 Test #183: tests/mbed/aes.xts ....................................................................................................................   Passed    0.08 sec
+        Start 184: tests/mbed/asn1parse
+184/760 Test #184: tests/mbed/asn1parse ..................................................................................................................   Passed    0.09 sec
+        Start 185: tests/mbed/asn1write
+185/760 Test #185: tests/mbed/asn1write ..................................................................................................................   Passed    0.08 sec
+        Start 186: tests/mbed/base64
+186/760 Test #186: tests/mbed/base64 .....................................................................................................................   Passed    0.08 sec
+        Start 187: tests/mbed/ccm
+187/760 Test #187: tests/mbed/ccm ........................................................................................................................   Passed    0.09 sec
+        Start 188: tests/mbed/cipher.aes
+188/760 Test #188: tests/mbed/cipher.aes .................................................................................................................   Passed    0.09 sec
+        Start 189: tests/mbed/cipher.ccm
+189/760 Test #189: tests/mbed/cipher.ccm .................................................................................................................   Passed    0.09 sec
+        Start 190: tests/mbed/cipher.des
+190/760 Test #190: tests/mbed/cipher.des .................................................................................................................   Passed    0.08 sec
+        Start 191: tests/mbed/cipher.gcm
+191/760 Test #191: tests/mbed/cipher.gcm .................................................................................................................   Passed    0.15 sec
+        Start 192: tests/mbed/cipher.misc
+192/760 Test #192: tests/mbed/cipher.misc ................................................................................................................   Passed    0.08 sec
+        Start 193: tests/mbed/cipher.padding
+193/760 Test #193: tests/mbed/cipher.padding .............................................................................................................   Passed    0.08 sec
+        Start 194: tests/mbed/cmac
+194/760 Test #194: tests/mbed/cmac .......................................................................................................................   Passed    0.08 sec
+        Start 195: tests/mbed/ctr_drbg
+195/760 Test #195: tests/mbed/ctr_drbg ...................................................................................................................   Passed    0.09 sec
+        Start 196: tests/mbed/debug
+196/760 Test #196: tests/mbed/debug ......................................................................................................................   Passed    0.09 sec
+        Start 197: tests/mbed/des
+197/760 Test #197: tests/mbed/des ........................................................................................................................   Passed    0.08 sec
+        Start 198: tests/mbed/ecdh
+198/760 Test #198: tests/mbed/ecdh .......................................................................................................................   Passed    1.37 sec
+        Start 199: tests/mbed/ecdsa
+199/760 Test #199: tests/mbed/ecdsa ......................................................................................................................   Passed    4.08 sec
+        Start 200: tests/mbed/ecp
+200/760 Test #200: tests/mbed/ecp ........................................................................................................................   Passed    1.12 sec
+        Start 201: tests/mbed/entropy
+201/760 Test #201: tests/mbed/entropy ....................................................................................................................   Passed    0.08 sec
+        Start 202: tests/mbed/error
+202/760 Test #202: tests/mbed/error ......................................................................................................................   Passed    0.08 sec
+        Start 203: tests/mbed/gcm.aes128_en
+203/760 Test #203: tests/mbed/gcm.aes128_en ..............................................................................................................   Passed    0.09 sec
+        Start 204: tests/mbed/gcm.aes192_en
+204/760 Test #204: tests/mbed/gcm.aes192_en ..............................................................................................................   Passed    0.09 sec
+        Start 205: tests/mbed/gcm.aes256_en
+205/760 Test #205: tests/mbed/gcm.aes256_en ..............................................................................................................   Passed    0.09 sec
+        Start 206: tests/mbed/gcm.aes128_de
+206/760 Test #206: tests/mbed/gcm.aes128_de ..............................................................................................................   Passed    0.09 sec
+        Start 207: tests/mbed/gcm.aes192_de
+207/760 Test #207: tests/mbed/gcm.aes192_de ..............................................................................................................   Passed    0.09 sec
+        Start 208: tests/mbed/gcm.aes256_de
+208/760 Test #208: tests/mbed/gcm.aes256_de ..............................................................................................................   Passed    0.09 sec
+        Start 209: tests/mbed/gcm.misc
+209/760 Test #209: tests/mbed/gcm.misc ...................................................................................................................   Passed    0.08 sec
+        Start 210: tests/mbed/hkdf
+210/760 Test #210: tests/mbed/hkdf .......................................................................................................................   Passed    0.08 sec
+        Start 211: tests/mbed/hmac_drbg.misc
+211/760 Test #211: tests/mbed/hmac_drbg.misc .............................................................................................................   Passed    0.09 sec
+        Start 212: tests/mbed/hmac_drbg.no_reseed
+212/760 Test #212: tests/mbed/hmac_drbg.no_reseed ........................................................................................................   Passed    0.17 sec
+        Start 213: tests/mbed/hmac_drbg.nopr
+213/760 Test #213: tests/mbed/hmac_drbg.nopr .............................................................................................................   Passed    0.13 sec
+        Start 214: tests/mbed/hmac_drbg.pr
+214/760 Test #214: tests/mbed/hmac_drbg.pr ...............................................................................................................   Passed    0.13 sec
+        Start 215: tests/mbed/md
+215/760 Test #215: tests/mbed/md .........................................................................................................................   Passed    0.09 sec
+        Start 216: tests/mbed/mdx
+216/760 Test #216: tests/mbed/mdx ........................................................................................................................   Passed    0.08 sec
+        Start 217: tests/mbed/mpi
+217/760 Test #217: tests/mbed/mpi ........................................................................................................................   Passed    2.63 sec
+        Start 218: tests/mbed/oid
+218/760 Test #218: tests/mbed/oid ........................................................................................................................   Passed    0.08 sec
+        Start 219: tests/mbed/pem
+219/760 Test #219: tests/mbed/pem ........................................................................................................................   Passed    0.08 sec
+        Start 220: tests/mbed/pkcs1_v15
+220/760 Test #220: tests/mbed/pkcs1_v15 ..................................................................................................................   Passed    0.42 sec
+        Start 221: tests/mbed/pkcs1_v21
+221/760 Test #221: tests/mbed/pkcs1_v21 ..................................................................................................................   Passed    3.04 sec
+        Start 222: tests/mbed/pkcs5
+222/760 Test #222: tests/mbed/pkcs5 ......................................................................................................................   Passed    1.15 sec
+        Start 223: tests/mbed/pkcs12
+223/760 Test #223: tests/mbed/pkcs12 .....................................................................................................................   Passed    0.08 sec
+        Start 224: tests/mbed/pk
+224/760 Test #224: tests/mbed/pk .........................................................................................................................   Passed    2.03 sec
+        Start 225: tests/mbed/pkparse
+225/760 Test #225: tests/mbed/pkparse ....................................................................................................................   Passed    0.09 sec
+        Start 226: tests/mbed/random
+226/760 Test #226: tests/mbed/random .....................................................................................................................   Passed    0.08 sec
+        Start 227: tests/mbed/shax
+227/760 Test #227: tests/mbed/shax .......................................................................................................................   Passed    0.08 sec
+        Start 228: tests/mbed/ssl
+228/760 Test #228: tests/mbed/ssl ........................................................................................................................   Passed   19.24 sec
+        Start 229: tests/mbed/rsa
+229/760 Test #229: tests/mbed/rsa ........................................................................................................................   Passed    6.25 sec
+        Start 230: tests/mbed/version
+230/760 Test #230: tests/mbed/version ....................................................................................................................   Passed    0.08 sec
+        Start 231: tests/mbed/x509parse
+231/760 Test #231: tests/mbed/x509parse ..................................................................................................................   Passed    0.12 sec
+        Start 232: tests/mman
+232/760 Test #232: tests/mman ............................................................................................................................   Passed    0.12 sec
+        Start 233: tests/module_loading
+233/760 Test #233: tests/module_loading ..................................................................................................................   Passed    0.04 sec
+        Start 234: tests/module_loading_negative_extra
+234/760 Test #234: tests/module_loading_negative_extra ...................................................................................................   Passed    0.00 sec
+        Start 235: tests/module_loading_negative_path
+235/760 Test #235: tests/module_loading_negative_path ....................................................................................................   Passed    0.00 sec
+        Start 236: tests/module_loading_negative_rpath
+236/760 Test #236: tests/module_loading_negative_rpath ...................................................................................................   Passed    0.00 sec
+        Start 237: tests/module_loading_negative_runpath
+237/760 Test #237: tests/module_loading_negative_runpath .................................................................................................   Passed    0.00 sec
+        Start 238: oegdb-multi-module-test
+238/760 Test #238: oegdb-multi-module-test ...............................................................................................................   Passed    1.46 sec
+        Start 239: oelldb-multi-module-test
+239/760 Test #239: oelldb-multi-module-test ..............................................................................................................   Passed    0.82 sec
+        Start 240: tests/ocall-create
+240/760 Test #240: tests/ocall-create ....................................................................................................................   Passed    0.15 sec
+        Start 241: tests/oeedger8r
+241/760 Test #241: tests/oeedger8r .......................................................................................................................   Passed    0.23 sec
+        Start 242: edger8r_private_trusted_warning
+242/760 Test #242: edger8r_private_trusted_warning .......................................................................................................   Passed    0.00 sec
+        Start 243: edger8r_allow_list_warning
+243/760 Test #243: edger8r_allow_list_warning ............................................................................................................   Passed    0.00 sec
+        Start 244: edger8r_portability_trusted_wchar_t_warning
+244/760 Test #244: edger8r_portability_trusted_wchar_t_warning ...........................................................................................   Passed    0.00 sec
+        Start 245: edger8r_portability_trusted_long_double_warning
+245/760 Test #245: edger8r_portability_trusted_long_double_warning .......................................................................................   Passed    0.00 sec
+        Start 246: edger8r_portability_trusted_long_warning
+246/760 Test #246: edger8r_portability_trusted_long_warning ..............................................................................................   Passed    0.00 sec
+        Start 247: edger8r_portability_trusted_unsigned_long_warning
+247/760 Test #247: edger8r_portability_trusted_unsigned_long_warning .....................................................................................   Passed    0.00 sec
+        Start 248: edger8r_portability_untrusted_wchar_t_warning
+248/760 Test #248: edger8r_portability_untrusted_wchar_t_warning .........................................................................................   Passed    0.00 sec
+        Start 249: edger8r_portability_untrusted_long_double_warning
+249/760 Test #249: edger8r_portability_untrusted_long_double_warning .....................................................................................   Passed    0.00 sec
+        Start 250: edger8r_portability_untrusted_long_warning
+250/760 Test #250: edger8r_portability_untrusted_long_warning ............................................................................................   Passed    0.00 sec
+        Start 251: edger8r_portability_untrusted_unsigned_long_warning
+251/760 Test #251: edger8r_portability_untrusted_unsigned_long_warning ...................................................................................   Passed    0.00 sec
+        Start 252: edger8r_size_signedness_warning
+252/760 Test #252: edger8r_size_signedness_warning .......................................................................................................   Passed    0.00 sec
+        Start 253: edger8r_count_signedness_warning
+253/760 Test #253: edger8r_count_signedness_warning ......................................................................................................   Passed    0.00 sec
+        Start 254: edger8r_size_and_count_warning
+254/760 Test #254: edger8r_size_and_count_warning ........................................................................................................   Passed    0.00 sec
+        Start 255: edger8r_deepcopy_value_warning
+255/760 Test #255: edger8r_deepcopy_value_warning ........................................................................................................   Passed    0.00 sec
+        Start 256: edger8r_duplicated_size_warning
+256/760 Test #256: edger8r_duplicated_size_warning .......................................................................................................   Passed    0.00 sec
+        Start 257: edger8r_duplicated_count_warning
+257/760 Test #257: edger8r_duplicated_count_warning ......................................................................................................   Passed    0.00 sec
+        Start 258: edger8r_string_attribute_error
+258/760 Test #258: edger8r_string_attribute_error ........................................................................................................   Passed    0.00 sec
+        Start 259: edger8r_wstring_attribute_error
+259/760 Test #259: edger8r_wstring_attribute_error .......................................................................................................   Passed    0.00 sec
+        Start 260: edger8r_string_out_error
+260/760 Test #260: edger8r_string_out_error ..............................................................................................................   Passed    0.00 sec
+        Start 261: edger8r_string_usercheck_error
+261/760 Test #261: edger8r_string_usercheck_error ........................................................................................................   Passed    0.00 sec
+        Start 262: edger8r_string_count_error
+262/760 Test #262: edger8r_string_count_error ............................................................................................................   Passed    0.00 sec
+        Start 263: edger8r_string_size_error
+263/760 Test #263: edger8r_string_size_error .............................................................................................................   Passed    0.00 sec
+        Start 264: edger8r_string_isary_error
+264/760 Test #264: edger8r_string_isary_error ............................................................................................................   Passed    0.00 sec
+        Start 265: edger8r_string_isptr_error
+265/760 Test #265: edger8r_string_isptr_error ............................................................................................................   Passed    0.00 sec
+        Start 266: edger8r_wstring_isptr_error
+266/760 Test #266: edger8r_wstring_isptr_error ...........................................................................................................   Passed    0.00 sec
+        Start 267: edger8r_string_readonly_error
+267/760 Test #267: edger8r_string_readonly_error .........................................................................................................   Passed    0.00 sec
+        Start 268: edger8r_wstring_readonly_error
+268/760 Test #268: edger8r_wstring_readonly_error ........................................................................................................   Passed    0.00 sec
+        Start 269: edger8r_struct_deepcopy_01_warning
+269/760 Test #269: edger8r_struct_deepcopy_01_warning ....................................................................................................   Passed    0.00 sec
+        Start 270: edger8r_struct_deepcopy_02_warning
+270/760 Test #270: edger8r_struct_deepcopy_02_warning ....................................................................................................   Passed    0.00 sec
+        Start 271: edger8r_pointer_array_01_warning
+271/760 Test #271: edger8r_pointer_array_01_warning ......................................................................................................   Passed    0.00 sec
+        Start 272: edger8r_pointer_array_02_warning
+272/760 Test #272: edger8r_pointer_array_02_warning ......................................................................................................   Passed    0.00 sec
+        Start 273: edger8r_pointer_array_03_warning
+273/760 Test #273: edger8r_pointer_array_03_warning ......................................................................................................   Passed    0.00 sec
+        Start 274: edger8r_pointer_array_04_warning
+274/760 Test #274: edger8r_pointer_array_04_warning ......................................................................................................   Passed    0.00 sec
+        Start 275: edger8r_string_usertype_error
+275/760 Test #275: edger8r_string_usertype_error .........................................................................................................   Passed    0.00 sec
+        Start 276: edger8r_usercheck_count_error
+276/760 Test #276: edger8r_usercheck_count_error .........................................................................................................   Passed    0.00 sec
+        Start 277: edger8r_usercheck_size_error
+277/760 Test #277: edger8r_usercheck_size_error ..........................................................................................................   Passed    0.00 sec
+        Start 278: tests/pf_gp_exceptions
+278/760 Test #278: tests/pf_gp_exceptions ................................................................................................................   Passed    0.07 sec
+        Start 279: tests/pf_gp_exceptions_unsigned
+279/760 Test #279: tests/pf_gp_exceptions_unsigned .......................................................................................................   Passed    0.08 sec
+        Start 280: tests/print
+280/760 Test #280: tests/print ...........................................................................................................................   Passed    0.12 sec
+        Start 281: tests/print-diff
+281/760 Test #281: tests/print-diff ......................................................................................................................   Passed    0.12 sec
+        Start 282: tests/props_unsigned
+282/760 Test #282: tests/props_unsigned ..................................................................................................................   Passed    0.12 sec
+        Start 283: tests/props
+283/760 Test #283: tests/props ...........................................................................................................................   Passed    0.12 sec
+        Start 284: tests/qeidentity
+284/760 Test #284: tests/qeidentity ......................................................................................................................   Passed    0.12 sec
+        Start 285: tests/report
+285/760 Test #285: tests/report ..........................................................................................................................   Passed    0.13 sec
+        Start 286: tests/report_attestation_without_enclave
+286/760 Test #286: tests/report_attestation_without_enclave ..............................................................................................***Skipped   0.00 sec
+        Start 287: tests/SampleApp
+287/760 Test #287: tests/SampleApp .......................................................................................................................   Passed    0.08 sec
+        Start 288: tests/SampleAppCRT
+288/760 Test #288: tests/SampleAppCRT ....................................................................................................................   Passed    0.08 sec
+        Start 289: tests/sealKey_mbedtls
+289/760 Test #289: tests/sealKey_mbedtls .................................................................................................................   Passed    3.15 sec
+        Start 290: tests/sealKey_openssl
+290/760 Test #290: tests/sealKey_openssl .................................................................................................................   Passed    0.25 sec
+        Start 291: tests/sim-signed
+291/760 Test #291: tests/sim-signed ......................................................................................................................   Passed    0.05 sec
+        Start 292: tests/sim-unsigned
+292/760 Test #292: tests/sim-unsigned ....................................................................................................................   Passed    0.05 sec
+        Start 293: tests/stdc
+293/760 Test #293: tests/stdc ............................................................................................................................   Passed    6.12 sec
+        Start 294: tests/stdcxx
+294/760 Test #294: tests/stdcxx ..........................................................................................................................   Passed    0.13 sec
+        Start 295: tests/global_init_exception
+295/760 Test #295: tests/global_init_exception ...........................................................................................................   Passed    0.12 sec
+        Start 296: tests/getrandom
+296/760 Test #296: tests/getrandom .......................................................................................................................   Passed    0.06 sec
+        Start 297: tests/resolver
+297/760 Test #297: tests/resolver ........................................................................................................................   Passed    0.04 sec
+        Start 298: tests/sockets
+298/760 Test #298: tests/sockets .........................................................................................................................   Passed    0.68 sec
+        Start 299: tests/dup1
+299/760 Test #299: tests/dup1 ............................................................................................................................   Passed    0.00 sec
+        Start 300: tests/dup2
+300/760 Test #300: tests/dup2 ............................................................................................................................   Passed    0.13 sec
+        Start 301: tests/fs
+301/760 Test #301: tests/fs ..............................................................................................................................   Passed    0.33 sec
+        Start 302: tests/hostfs
+302/760 Test #302: tests/hostfs ..........................................................................................................................   Passed    0.13 sec
+        Start 303: tests/datagram
+303/760 Test #303: tests/datagram ........................................................................................................................   Passed    0.45 sec
+        Start 304: tests/epoll
+304/760 Test #304: tests/epoll ...........................................................................................................................   Passed    0.28 sec
+        Start 305: tests/ids
+305/760 Test #305: tests/ids .............................................................................................................................   Passed    0.12 sec
+        Start 306: tests/poller_select
+306/760 Test #306: tests/poller_select ...................................................................................................................   Passed    0.41 sec
+        Start 307: tests/poller_poll
+307/760 Test #307: tests/poller_poll .....................................................................................................................   Passed    0.42 sec
+        Start 308: tests/poller_epoll
+308/760 Test #308: tests/poller_epoll ....................................................................................................................   Passed    0.41 sec
+        Start 309: tests/sendmsg
+309/760 Test #309: tests/sendmsg .........................................................................................................................   Passed    6.16 sec
+        Start 310: tests/socketpair
+310/760 Test #310: tests/socketpair ......................................................................................................................   Passed    2.08 sec
+        Start 311: tests/oethread
+311/760 Test #311: tests/oethread ........................................................................................................................   Passed   14.23 sec
+        Start 312: tests/pthread
+312/760 Test #312: tests/pthread .........................................................................................................................   Passed   14.85 sec
+        Start 313: tests/threadcxx
+313/760 Test #313: tests/threadcxx .......................................................................................................................   Passed   13.03 sec
+        Start 314: tests/thread_local
+314/760 Test #314: tests/thread_local ....................................................................................................................   Passed    2.29 sec
+        Start 315: tests/thread_local_exported
+315/760 Test #315: tests/thread_local_exported ...........................................................................................................   Passed    2.33 sec
+        Start 316: tests/thread_local_stripped
+316/760 Test #316: tests/thread_local_stripped ...........................................................................................................   Passed    2.33 sec
+        Start 317: tests/thread_local_exported_stripped
+317/760 Test #317: tests/thread_local_exported_stripped ..................................................................................................   Passed    2.34 sec
+        Start 318: tests/thread_local_large
+318/760 Test #318: tests/thread_local_large ..............................................................................................................   Passed    0.06 sec
+        Start 319: tests/thread_locals_no_tdata
+319/760 Test #319: tests/thread_locals_no_tdata ..........................................................................................................   Passed    0.05 sec
+        Start 320: tests/VectorException
+320/760 Test #320: tests/VectorException .................................................................................................................   Passed    0.12 sec
+        Start 321: tests/stack_overflow_exception
+321/760 Test #321: tests/stack_overflow_exception ........................................................................................................   Passed    0.03 sec
+        Start 322: tests/stack_overflow_exception_unsigned
+322/760 Test #322: tests/stack_overflow_exception_unsigned ...............................................................................................   Passed    0.04 sec
+        Start 323: tests/stack_smashing_protector
+323/760 Test #323: tests/stack_smashing_protector ........................................................................................................   Passed    0.13 sec
+        Start 324: tests/stress_ecall_1
+324/760 Test #324: tests/stress_ecall_1 ..................................................................................................................   Passed    0.22 sec
+        Start 325: tests/stress_ecall_2
+325/760 Test #325: tests/stress_ecall_2 ..................................................................................................................   Passed    0.75 sec
+        Start 326: tests/create-rapid
+326/760 Test #326: tests/create-rapid ....................................................................................................................   Passed   10.82 sec
+        Start 327: tests/symcrypt_engine
+327/760 Test #327: tests/symcrypt_engine .................................................................................................................   Passed    0.12 sec
+        Start 328: tests/symcrypt_engine_no_entropy
+328/760 Test #328: tests/symcrypt_engine_no_entropy ......................................................................................................   Passed    0.11 sec
+        Start 329: tests/openssl/buildtest_aes
+329/760 Test #329: tests/openssl/buildtest_aes ...........................................................................................................   Passed    0.17 sec
+        Start 330: tests/openssl/buildtest_aes_symcrypt
+330/760 Test #330: tests/openssl/buildtest_aes_symcrypt ..................................................................................................   Passed    0.26 sec
+        Start 331: tests/openssl/buildtest_asn1
+331/760 Test #331: tests/openssl/buildtest_asn1 ..........................................................................................................   Passed    0.17 sec
+        Start 332: tests/openssl/buildtest_asn1_symcrypt
+332/760 Test #332: tests/openssl/buildtest_asn1_symcrypt .................................................................................................   Passed    0.26 sec
+        Start 333: tests/openssl/buildtest_asn1t
+333/760 Test #333: tests/openssl/buildtest_asn1t .........................................................................................................   Passed    0.18 sec
+        Start 334: tests/openssl/buildtest_asn1t_symcrypt
+334/760 Test #334: tests/openssl/buildtest_asn1t_symcrypt ................................................................................................   Passed    0.26 sec
+        Start 335: tests/openssl/buildtest_async
+335/760 Test #335: tests/openssl/buildtest_async .........................................................................................................   Passed    0.18 sec
+        Start 336: tests/openssl/buildtest_async_symcrypt
+336/760 Test #336: tests/openssl/buildtest_async_symcrypt ................................................................................................   Passed    0.26 sec
+        Start 337: tests/openssl/buildtest_bio
+337/760 Test #337: tests/openssl/buildtest_bio ...........................................................................................................   Passed    0.17 sec
+        Start 338: tests/openssl/buildtest_bio_symcrypt
+338/760 Test #338: tests/openssl/buildtest_bio_symcrypt ..................................................................................................   Passed    0.26 sec
+        Start 339: tests/openssl/buildtest_blowfish
+339/760 Test #339: tests/openssl/buildtest_blowfish ......................................................................................................   Passed    0.18 sec
+        Start 340: tests/openssl/buildtest_blowfish_symcrypt
+340/760 Test #340: tests/openssl/buildtest_blowfish_symcrypt .............................................................................................   Passed    0.26 sec
+        Start 341: tests/openssl/buildtest_bn
+341/760 Test #341: tests/openssl/buildtest_bn ............................................................................................................   Passed    0.17 sec
+        Start 342: tests/openssl/buildtest_bn_symcrypt
+342/760 Test #342: tests/openssl/buildtest_bn_symcrypt ...................................................................................................   Passed    0.26 sec
+        Start 343: tests/openssl/buildtest_buffer
+343/760 Test #343: tests/openssl/buildtest_buffer ........................................................................................................   Passed    0.17 sec
+        Start 344: tests/openssl/buildtest_buffer_symcrypt
+344/760 Test #344: tests/openssl/buildtest_buffer_symcrypt ...............................................................................................   Passed    0.25 sec
+        Start 345: tests/openssl/buildtest_camellia
+345/760 Test #345: tests/openssl/buildtest_camellia ......................................................................................................   Passed    0.18 sec
+        Start 346: tests/openssl/buildtest_camellia_symcrypt
+346/760 Test #346: tests/openssl/buildtest_camellia_symcrypt .............................................................................................   Passed    0.26 sec
+        Start 347: tests/openssl/buildtest_cast
+347/760 Test #347: tests/openssl/buildtest_cast ..........................................................................................................   Passed    0.18 sec
+        Start 348: tests/openssl/buildtest_cast_symcrypt
+348/760 Test #348: tests/openssl/buildtest_cast_symcrypt .................................................................................................   Passed    0.26 sec
+        Start 349: tests/openssl/buildtest_cmac
+349/760 Test #349: tests/openssl/buildtest_cmac ..........................................................................................................   Passed    0.17 sec
+        Start 350: tests/openssl/buildtest_cmac_symcrypt
+350/760 Test #350: tests/openssl/buildtest_cmac_symcrypt .................................................................................................   Passed    0.26 sec
+        Start 351: tests/openssl/buildtest_cms
+351/760 Test #351: tests/openssl/buildtest_cms ...........................................................................................................   Passed    0.18 sec
+        Start 352: tests/openssl/buildtest_cms_symcrypt
+352/760 Test #352: tests/openssl/buildtest_cms_symcrypt ..................................................................................................   Passed    0.26 sec
+        Start 353: tests/openssl/buildtest_comp
+353/760 Test #353: tests/openssl/buildtest_comp ..........................................................................................................   Passed    0.18 sec
+        Start 354: tests/openssl/buildtest_comp_symcrypt
+354/760 Test #354: tests/openssl/buildtest_comp_symcrypt .................................................................................................   Passed    0.26 sec
+        Start 355: tests/openssl/buildtest_conf
+355/760 Test #355: tests/openssl/buildtest_conf ..........................................................................................................   Passed    0.18 sec
+        Start 356: tests/openssl/buildtest_conf_symcrypt
+356/760 Test #356: tests/openssl/buildtest_conf_symcrypt .................................................................................................   Passed    0.26 sec
+        Start 357: tests/openssl/buildtest_conf_api
+357/760 Test #357: tests/openssl/buildtest_conf_api ......................................................................................................   Passed    0.18 sec
+        Start 358: tests/openssl/buildtest_conf_api_symcrypt
+358/760 Test #358: tests/openssl/buildtest_conf_api_symcrypt .............................................................................................   Passed    0.26 sec
+        Start 359: tests/openssl/buildtest_crypto
+359/760 Test #359: tests/openssl/buildtest_crypto ........................................................................................................   Passed    0.18 sec
+        Start 360: tests/openssl/buildtest_crypto_symcrypt
+360/760 Test #360: tests/openssl/buildtest_crypto_symcrypt ...............................................................................................   Passed    0.26 sec
+        Start 361: tests/openssl/buildtest_ct
+361/760 Test #361: tests/openssl/buildtest_ct ............................................................................................................   Passed    0.18 sec
+        Start 362: tests/openssl/buildtest_ct_symcrypt
+362/760 Test #362: tests/openssl/buildtest_ct_symcrypt ...................................................................................................   Passed    0.26 sec
+        Start 363: tests/openssl/buildtest_des
+363/760 Test #363: tests/openssl/buildtest_des ...........................................................................................................   Passed    0.18 sec
+        Start 364: tests/openssl/buildtest_des_symcrypt
+364/760 Test #364: tests/openssl/buildtest_des_symcrypt ..................................................................................................   Passed    0.26 sec
+        Start 365: tests/openssl/buildtest_dh
+365/760 Test #365: tests/openssl/buildtest_dh ............................................................................................................   Passed    0.18 sec
+        Start 366: tests/openssl/buildtest_dh_symcrypt
+366/760 Test #366: tests/openssl/buildtest_dh_symcrypt ...................................................................................................   Passed    0.26 sec
+        Start 367: tests/openssl/buildtest_dsa
+367/760 Test #367: tests/openssl/buildtest_dsa ...........................................................................................................   Passed    0.17 sec
+        Start 368: tests/openssl/buildtest_dsa_symcrypt
+368/760 Test #368: tests/openssl/buildtest_dsa_symcrypt ..................................................................................................   Passed    0.26 sec
+        Start 369: tests/openssl/buildtest_dtls1
+369/760 Test #369: tests/openssl/buildtest_dtls1 .........................................................................................................   Passed    0.18 sec
+        Start 370: tests/openssl/buildtest_dtls1_symcrypt
+370/760 Test #370: tests/openssl/buildtest_dtls1_symcrypt ................................................................................................   Passed    0.26 sec
+        Start 371: tests/openssl/buildtest_e_os2
+371/760 Test #371: tests/openssl/buildtest_e_os2 .........................................................................................................   Passed    0.18 sec
+        Start 372: tests/openssl/buildtest_e_os2_symcrypt
+372/760 Test #372: tests/openssl/buildtest_e_os2_symcrypt ................................................................................................   Passed    0.26 sec
+        Start 373: tests/openssl/buildtest_ebcdic
+373/760 Test #373: tests/openssl/buildtest_ebcdic ........................................................................................................   Passed    0.17 sec
+        Start 374: tests/openssl/buildtest_ebcdic_symcrypt
+374/760 Test #374: tests/openssl/buildtest_ebcdic_symcrypt ...............................................................................................   Passed    0.26 sec
+        Start 375: tests/openssl/buildtest_ec
+375/760 Test #375: tests/openssl/buildtest_ec ............................................................................................................   Passed    0.17 sec
+        Start 376: tests/openssl/buildtest_ec_symcrypt
+376/760 Test #376: tests/openssl/buildtest_ec_symcrypt ...................................................................................................   Passed    0.26 sec
+        Start 377: tests/openssl/buildtest_ecdh
+377/760 Test #377: tests/openssl/buildtest_ecdh ..........................................................................................................   Passed    0.18 sec
+        Start 378: tests/openssl/buildtest_ecdh_symcrypt
+378/760 Test #378: tests/openssl/buildtest_ecdh_symcrypt .................................................................................................   Passed    0.26 sec
+        Start 379: tests/openssl/buildtest_ecdsa
+379/760 Test #379: tests/openssl/buildtest_ecdsa .........................................................................................................   Passed    0.18 sec
+        Start 380: tests/openssl/buildtest_ecdsa_symcrypt
+380/760 Test #380: tests/openssl/buildtest_ecdsa_symcrypt ................................................................................................   Passed    0.26 sec
+        Start 381: tests/openssl/buildtest_engine
+381/760 Test #381: tests/openssl/buildtest_engine ........................................................................................................   Passed    0.18 sec
+        Start 382: tests/openssl/buildtest_engine_symcrypt
+382/760 Test #382: tests/openssl/buildtest_engine_symcrypt ...............................................................................................   Passed    0.26 sec
+        Start 383: tests/openssl/buildtest_evp
+383/760 Test #383: tests/openssl/buildtest_evp ...........................................................................................................   Passed    0.17 sec
+        Start 384: tests/openssl/buildtest_evp_symcrypt
+384/760 Test #384: tests/openssl/buildtest_evp_symcrypt ..................................................................................................   Passed    0.26 sec
+        Start 385: tests/openssl/buildtest_hmac
+385/760 Test #385: tests/openssl/buildtest_hmac ..........................................................................................................   Passed    0.18 sec
+        Start 386: tests/openssl/buildtest_hmac_symcrypt
+386/760 Test #386: tests/openssl/buildtest_hmac_symcrypt .................................................................................................   Passed    0.26 sec
+        Start 387: tests/openssl/buildtest_idea
+387/760 Test #387: tests/openssl/buildtest_idea ..........................................................................................................   Passed    0.17 sec
+        Start 388: tests/openssl/buildtest_idea_symcrypt
+388/760 Test #388: tests/openssl/buildtest_idea_symcrypt .................................................................................................   Passed    0.26 sec
+        Start 389: tests/openssl/buildtest_kdf
+389/760 Test #389: tests/openssl/buildtest_kdf ...........................................................................................................   Passed    0.18 sec
+        Start 390: tests/openssl/buildtest_kdf_symcrypt
+390/760 Test #390: tests/openssl/buildtest_kdf_symcrypt ..................................................................................................   Passed    0.26 sec
+        Start 391: tests/openssl/buildtest_lhash
+391/760 Test #391: tests/openssl/buildtest_lhash .........................................................................................................   Passed    0.18 sec
+        Start 392: tests/openssl/buildtest_lhash_symcrypt
+392/760 Test #392: tests/openssl/buildtest_lhash_symcrypt ................................................................................................   Passed    0.26 sec
+        Start 393: tests/openssl/buildtest_md4
+393/760 Test #393: tests/openssl/buildtest_md4 ...........................................................................................................   Passed    0.18 sec
+        Start 394: tests/openssl/buildtest_md4_symcrypt
+394/760 Test #394: tests/openssl/buildtest_md4_symcrypt ..................................................................................................   Passed    0.26 sec
+        Start 395: tests/openssl/buildtest_md5
+395/760 Test #395: tests/openssl/buildtest_md5 ...........................................................................................................   Passed    0.18 sec
+        Start 396: tests/openssl/buildtest_md5_symcrypt
+396/760 Test #396: tests/openssl/buildtest_md5_symcrypt ..................................................................................................   Passed    0.26 sec
+        Start 397: tests/openssl/buildtest_mdc2
+397/760 Test #397: tests/openssl/buildtest_mdc2 ..........................................................................................................   Passed    0.17 sec
+        Start 398: tests/openssl/buildtest_mdc2_symcrypt
+398/760 Test #398: tests/openssl/buildtest_mdc2_symcrypt .................................................................................................   Passed    0.26 sec
+        Start 399: tests/openssl/buildtest_modes
+399/760 Test #399: tests/openssl/buildtest_modes .........................................................................................................   Passed    0.17 sec
+        Start 400: tests/openssl/buildtest_modes_symcrypt
+400/760 Test #400: tests/openssl/buildtest_modes_symcrypt ................................................................................................   Passed    0.26 sec
+        Start 401: tests/openssl/buildtest_obj_mac
+401/760 Test #401: tests/openssl/buildtest_obj_mac .......................................................................................................   Passed    0.18 sec
+        Start 402: tests/openssl/buildtest_obj_mac_symcrypt
+402/760 Test #402: tests/openssl/buildtest_obj_mac_symcrypt ..............................................................................................   Passed    0.26 sec
+        Start 403: tests/openssl/buildtest_objects
+403/760 Test #403: tests/openssl/buildtest_objects .......................................................................................................   Passed    0.17 sec
+        Start 404: tests/openssl/buildtest_objects_symcrypt
+404/760 Test #404: tests/openssl/buildtest_objects_symcrypt ..............................................................................................   Passed    0.26 sec
+        Start 405: tests/openssl/buildtest_ocsp
+405/760 Test #405: tests/openssl/buildtest_ocsp ..........................................................................................................   Passed    0.18 sec
+        Start 406: tests/openssl/buildtest_ocsp_symcrypt
+406/760 Test #406: tests/openssl/buildtest_ocsp_symcrypt .................................................................................................   Passed    0.26 sec
+        Start 407: tests/openssl/buildtest_opensslv
+407/760 Test #407: tests/openssl/buildtest_opensslv ......................................................................................................   Passed    0.18 sec
+        Start 408: tests/openssl/buildtest_opensslv_symcrypt
+408/760 Test #408: tests/openssl/buildtest_opensslv_symcrypt .............................................................................................   Passed    0.26 sec
+        Start 409: tests/openssl/buildtest_ossl_typ
+409/760 Test #409: tests/openssl/buildtest_ossl_typ ......................................................................................................   Passed    0.18 sec
+        Start 410: tests/openssl/buildtest_ossl_typ_symcrypt
+410/760 Test #410: tests/openssl/buildtest_ossl_typ_symcrypt .............................................................................................   Passed    0.26 sec
+        Start 411: tests/openssl/buildtest_pem
+411/760 Test #411: tests/openssl/buildtest_pem ...........................................................................................................   Passed    0.18 sec
+        Start 412: tests/openssl/buildtest_pem_symcrypt
+412/760 Test #412: tests/openssl/buildtest_pem_symcrypt ..................................................................................................   Passed    0.26 sec
+        Start 413: tests/openssl/buildtest_pem2
+413/760 Test #413: tests/openssl/buildtest_pem2 ..........................................................................................................   Passed    0.17 sec
+        Start 414: tests/openssl/buildtest_pem2_symcrypt
+414/760 Test #414: tests/openssl/buildtest_pem2_symcrypt .................................................................................................   Passed    0.26 sec
+        Start 415: tests/openssl/buildtest_pkcs12
+415/760 Test #415: tests/openssl/buildtest_pkcs12 ........................................................................................................   Passed    0.18 sec
+        Start 416: tests/openssl/buildtest_pkcs12_symcrypt
+416/760 Test #416: tests/openssl/buildtest_pkcs12_symcrypt ...............................................................................................   Passed    0.26 sec
+        Start 417: tests/openssl/buildtest_pkcs7
+417/760 Test #417: tests/openssl/buildtest_pkcs7 .........................................................................................................   Passed    0.17 sec
+        Start 418: tests/openssl/buildtest_pkcs7_symcrypt
+418/760 Test #418: tests/openssl/buildtest_pkcs7_symcrypt ................................................................................................   Passed    0.26 sec
+        Start 419: tests/openssl/buildtest_rand
+419/760 Test #419: tests/openssl/buildtest_rand ..........................................................................................................   Passed    0.17 sec
+        Start 420: tests/openssl/buildtest_rand_symcrypt
+420/760 Test #420: tests/openssl/buildtest_rand_symcrypt .................................................................................................   Passed    0.26 sec
+        Start 421: tests/openssl/buildtest_rand_drbg
+421/760 Test #421: tests/openssl/buildtest_rand_drbg .....................................................................................................   Passed    0.18 sec
+        Start 422: tests/openssl/buildtest_rand_drbg_symcrypt
+422/760 Test #422: tests/openssl/buildtest_rand_drbg_symcrypt ............................................................................................   Passed    0.26 sec
+        Start 423: tests/openssl/buildtest_rc2
+423/760 Test #423: tests/openssl/buildtest_rc2 ...........................................................................................................   Passed    0.17 sec
+        Start 424: tests/openssl/buildtest_rc2_symcrypt
+424/760 Test #424: tests/openssl/buildtest_rc2_symcrypt ..................................................................................................   Passed    0.26 sec
+        Start 425: tests/openssl/buildtest_rc4
+425/760 Test #425: tests/openssl/buildtest_rc4 ...........................................................................................................   Passed    0.18 sec
+        Start 426: tests/openssl/buildtest_rc4_symcrypt
+426/760 Test #426: tests/openssl/buildtest_rc4_symcrypt ..................................................................................................   Passed    0.26 sec
+        Start 427: tests/openssl/buildtest_ripemd
+427/760 Test #427: tests/openssl/buildtest_ripemd ........................................................................................................   Passed    0.18 sec
+        Start 428: tests/openssl/buildtest_ripemd_symcrypt
+428/760 Test #428: tests/openssl/buildtest_ripemd_symcrypt ...............................................................................................   Passed    0.26 sec
+        Start 429: tests/openssl/buildtest_rsa
+429/760 Test #429: tests/openssl/buildtest_rsa ...........................................................................................................   Passed    0.18 sec
+        Start 430: tests/openssl/buildtest_rsa_symcrypt
+430/760 Test #430: tests/openssl/buildtest_rsa_symcrypt ..................................................................................................   Passed    0.26 sec
+        Start 431: tests/openssl/buildtest_safestack
+431/760 Test #431: tests/openssl/buildtest_safestack .....................................................................................................   Passed    0.18 sec
+        Start 432: tests/openssl/buildtest_safestack_symcrypt
+432/760 Test #432: tests/openssl/buildtest_safestack_symcrypt ............................................................................................   Passed    0.26 sec
+        Start 433: tests/openssl/buildtest_seed
+433/760 Test #433: tests/openssl/buildtest_seed ..........................................................................................................   Passed    0.18 sec
+        Start 434: tests/openssl/buildtest_seed_symcrypt
+434/760 Test #434: tests/openssl/buildtest_seed_symcrypt .................................................................................................   Passed    0.26 sec
+        Start 435: tests/openssl/buildtest_sha
+435/760 Test #435: tests/openssl/buildtest_sha ...........................................................................................................   Passed    0.18 sec
+        Start 436: tests/openssl/buildtest_sha_symcrypt
+436/760 Test #436: tests/openssl/buildtest_sha_symcrypt ..................................................................................................   Passed    0.26 sec
+        Start 437: tests/openssl/buildtest_srp
+437/760 Test #437: tests/openssl/buildtest_srp ...........................................................................................................   Passed    0.17 sec
+        Start 438: tests/openssl/buildtest_srp_symcrypt
+438/760 Test #438: tests/openssl/buildtest_srp_symcrypt ..................................................................................................   Passed    0.26 sec
+        Start 439: tests/openssl/buildtest_srtp
+439/760 Test #439: tests/openssl/buildtest_srtp ..........................................................................................................   Passed    0.18 sec
+        Start 440: tests/openssl/buildtest_srtp_symcrypt
+440/760 Test #440: tests/openssl/buildtest_srtp_symcrypt .................................................................................................   Passed    0.26 sec
+        Start 441: tests/openssl/buildtest_ssl
+441/760 Test #441: tests/openssl/buildtest_ssl ...........................................................................................................   Passed    0.18 sec
+        Start 442: tests/openssl/buildtest_ssl_symcrypt
+442/760 Test #442: tests/openssl/buildtest_ssl_symcrypt ..................................................................................................   Passed    0.26 sec
+        Start 443: tests/openssl/buildtest_ssl2
+443/760 Test #443: tests/openssl/buildtest_ssl2 ..........................................................................................................   Passed    0.17 sec
+        Start 444: tests/openssl/buildtest_ssl2_symcrypt
+444/760 Test #444: tests/openssl/buildtest_ssl2_symcrypt .................................................................................................   Passed    0.26 sec
+        Start 445: tests/openssl/buildtest_stack
+445/760 Test #445: tests/openssl/buildtest_stack .........................................................................................................   Passed    0.17 sec
+        Start 446: tests/openssl/buildtest_stack_symcrypt
+446/760 Test #446: tests/openssl/buildtest_stack_symcrypt ................................................................................................   Passed    0.26 sec
+        Start 447: tests/openssl/buildtest_store
+447/760 Test #447: tests/openssl/buildtest_store .........................................................................................................   Passed    0.18 sec
+        Start 448: tests/openssl/buildtest_store_symcrypt
+448/760 Test #448: tests/openssl/buildtest_store_symcrypt ................................................................................................   Passed    0.26 sec
+        Start 449: tests/openssl/buildtest_symhacks
+449/760 Test #449: tests/openssl/buildtest_symhacks ......................................................................................................   Passed    0.17 sec
+        Start 450: tests/openssl/buildtest_symhacks_symcrypt
+450/760 Test #450: tests/openssl/buildtest_symhacks_symcrypt .............................................................................................   Passed    0.26 sec
+        Start 451: tests/openssl/buildtest_tls1
+451/760 Test #451: tests/openssl/buildtest_tls1 ..........................................................................................................   Passed    0.18 sec
+        Start 452: tests/openssl/buildtest_tls1_symcrypt
+452/760 Test #452: tests/openssl/buildtest_tls1_symcrypt .................................................................................................   Passed    0.26 sec
+        Start 453: tests/openssl/buildtest_ts
+453/760 Test #453: tests/openssl/buildtest_ts ............................................................................................................   Passed    0.18 sec
+        Start 454: tests/openssl/buildtest_ts_symcrypt
+454/760 Test #454: tests/openssl/buildtest_ts_symcrypt ...................................................................................................   Passed    0.26 sec
+        Start 455: tests/openssl/buildtest_txt_db
+455/760 Test #455: tests/openssl/buildtest_txt_db ........................................................................................................   Passed    0.17 sec
+        Start 456: tests/openssl/buildtest_txt_db_symcrypt
+456/760 Test #456: tests/openssl/buildtest_txt_db_symcrypt ...............................................................................................   Passed    0.26 sec
+        Start 457: tests/openssl/buildtest_ui
+457/760 Test #457: tests/openssl/buildtest_ui ............................................................................................................   Passed    0.17 sec
+        Start 458: tests/openssl/buildtest_ui_symcrypt
+458/760 Test #458: tests/openssl/buildtest_ui_symcrypt ...................................................................................................   Passed    0.26 sec
+        Start 459: tests/openssl/buildtest_whrlpool
+459/760 Test #459: tests/openssl/buildtest_whrlpool ......................................................................................................   Passed    0.17 sec
+        Start 460: tests/openssl/buildtest_whrlpool_symcrypt
+460/760 Test #460: tests/openssl/buildtest_whrlpool_symcrypt .............................................................................................   Passed    0.26 sec
+        Start 461: tests/openssl/buildtest_x509
+461/760 Test #461: tests/openssl/buildtest_x509 ..........................................................................................................   Passed    0.17 sec
+        Start 462: tests/openssl/buildtest_x509_symcrypt
+462/760 Test #462: tests/openssl/buildtest_x509_symcrypt .................................................................................................   Passed    0.26 sec
+        Start 463: tests/openssl/buildtest_x509_vfy
+463/760 Test #463: tests/openssl/buildtest_x509_vfy ......................................................................................................   Passed    0.18 sec
+        Start 464: tests/openssl/buildtest_x509_vfy_symcrypt
+464/760 Test #464: tests/openssl/buildtest_x509_vfy_symcrypt .............................................................................................   Passed    0.26 sec
+        Start 465: tests/openssl/buildtest_x509v3
+465/760 Test #465: tests/openssl/buildtest_x509v3 ........................................................................................................   Passed    0.18 sec
+        Start 466: tests/openssl/buildtest_x509v3_symcrypt
+466/760 Test #466: tests/openssl/buildtest_x509v3_symcrypt ...............................................................................................   Passed    0.26 sec
+        Start 467: tests/openssl/afalgtest
+467/760 Test #467: tests/openssl/afalgtest ...............................................................................................................   Passed    0.18 sec
+        Start 468: tests/openssl/afalgtest_symcrypt
+468/760 Test #468: tests/openssl/afalgtest_symcrypt ......................................................................................................   Passed    0.26 sec
+        Start 469: tests/openssl/asn1_decode_test
+469/760 Test #469: tests/openssl/asn1_decode_test ........................................................................................................   Passed    0.17 sec
+        Start 470: tests/openssl/asn1_decode_test_symcrypt
+470/760 Test #470: tests/openssl/asn1_decode_test_symcrypt ...............................................................................................   Passed    0.26 sec
+        Start 471: tests/openssl/asn1_encode_test
+471/760 Test #471: tests/openssl/asn1_encode_test ........................................................................................................   Passed    0.19 sec
+        Start 472: tests/openssl/asn1_encode_test_symcrypt
+472/760 Test #472: tests/openssl/asn1_encode_test_symcrypt ...............................................................................................   Passed    0.27 sec
+        Start 473: tests/openssl/asn1_internal_test
+473/760 Test #473: tests/openssl/asn1_internal_test ......................................................................................................   Passed    0.18 sec
+        Start 474: tests/openssl/asn1_internal_test_symcrypt
+474/760 Test #474: tests/openssl/asn1_internal_test_symcrypt .............................................................................................   Passed    0.26 sec
+        Start 475: tests/openssl/asn1_string_table_test
+475/760 Test #475: tests/openssl/asn1_string_table_test ..................................................................................................   Passed    0.17 sec
+        Start 476: tests/openssl/asn1_string_table_test_symcrypt
+476/760 Test #476: tests/openssl/asn1_string_table_test_symcrypt .........................................................................................   Passed    0.26 sec
+        Start 477: tests/openssl/asynciotest
+477/760 Test #477: tests/openssl/asynciotest .............................................................................................................   Passed    0.24 sec
+        Start 478: tests/openssl/asynciotest_symcrypt
+478/760 Test #478: tests/openssl/asynciotest_symcrypt ....................................................................................................   Passed    0.33 sec
+        Start 479: tests/openssl/asynctest
+479/760 Test #479: tests/openssl/asynctest ...............................................................................................................   Passed    0.18 sec
+        Start 480: tests/openssl/asynctest_symcrypt
+480/760 Test #480: tests/openssl/asynctest_symcrypt ......................................................................................................   Passed    0.26 sec
+        Start 481: tests/openssl/bad_dtls_test
+481/760 Test #481: tests/openssl/bad_dtls_test ...........................................................................................................   Passed    0.21 sec
+        Start 482: tests/openssl/bad_dtls_test_symcrypt
+482/760 Test #482: tests/openssl/bad_dtls_test_symcrypt ..................................................................................................   Passed    0.29 sec
+        Start 483: tests/openssl/bftest
+483/760 Test #483: tests/openssl/bftest ..................................................................................................................   Passed    0.18 sec
+        Start 484: tests/openssl/bftest_symcrypt
+484/760 Test #484: tests/openssl/bftest_symcrypt .........................................................................................................   Passed    0.26 sec
+        Start 485: tests/openssl/bio_callback_test
+485/760 Test #485: tests/openssl/bio_callback_test .......................................................................................................   Passed    0.18 sec
+        Start 486: tests/openssl/bio_callback_test_symcrypt
+486/760 Test #486: tests/openssl/bio_callback_test_symcrypt ..............................................................................................   Passed    0.26 sec
+        Start 487: tests/openssl/bio_enc_test
+487/760 Test #487: tests/openssl/bio_enc_test ............................................................................................................   Passed    2.26 sec
+        Start 488: tests/openssl/bio_enc_test_symcrypt
+488/760 Test #488: tests/openssl/bio_enc_test_symcrypt ...................................................................................................   Passed    2.39 sec
+        Start 489: tests/openssl/bio_memleak_test
+489/760 Test #489: tests/openssl/bio_memleak_test ........................................................................................................   Passed    0.18 sec
+        Start 490: tests/openssl/bio_memleak_test_symcrypt
+490/760 Test #490: tests/openssl/bio_memleak_test_symcrypt ...............................................................................................   Passed    0.26 sec
+        Start 491: tests/openssl/bioprinttest
+491/760 Test #491: tests/openssl/bioprinttest ............................................................................................................   Passed    0.18 sec
+        Start 492: tests/openssl/bioprinttest_symcrypt
+492/760 Test #492: tests/openssl/bioprinttest_symcrypt ...................................................................................................   Passed    0.26 sec
+        Start 493: tests/openssl/bntest
+493/760 Test #493: tests/openssl/bntest ..................................................................................................................   Passed    6.92 sec
+        Start 494: tests/openssl/bntest_symcrypt
+494/760 Test #494: tests/openssl/bntest_symcrypt .........................................................................................................   Passed    6.58 sec
+        Start 495: tests/openssl/casttest
+495/760 Test #495: tests/openssl/casttest ................................................................................................................   Passed    0.17 sec
+        Start 496: tests/openssl/casttest_symcrypt
+496/760 Test #496: tests/openssl/casttest_symcrypt .......................................................................................................   Passed    0.26 sec
+        Start 497: tests/openssl/cipherbytes_test
+497/760 Test #497: tests/openssl/cipherbytes_test ........................................................................................................   Passed    0.19 sec
+        Start 498: tests/openssl/cipherbytes_test_symcrypt
+498/760 Test #498: tests/openssl/cipherbytes_test_symcrypt ...............................................................................................   Passed    0.28 sec
+        Start 499: tests/openssl/cipherlist_test
+499/760 Test #499: tests/openssl/cipherlist_test .........................................................................................................   Passed    0.19 sec
+        Start 500: tests/openssl/cipherlist_test_symcrypt
+500/760 Test #500: tests/openssl/cipherlist_test_symcrypt ................................................................................................   Passed    0.28 sec
+        Start 501: tests/openssl/ciphername_test
+501/760 Test #501: tests/openssl/ciphername_test .........................................................................................................   Passed    0.20 sec
+        Start 502: tests/openssl/ciphername_test_symcrypt
+502/760 Test #502: tests/openssl/ciphername_test_symcrypt ................................................................................................   Passed    0.28 sec
+        Start 503: tests/openssl/clienthellotest
+503/760 Test #503: tests/openssl/clienthellotest .........................................................................................................   Passed    0.20 sec
+        Start 504: tests/openssl/clienthellotest_symcrypt
+504/760 Test #504: tests/openssl/clienthellotest_symcrypt ................................................................................................   Passed    0.29 sec
+        Start 505: tests/openssl/cmactest
+505/760 Test #505: tests/openssl/cmactest ................................................................................................................   Passed    0.17 sec
+        Start 506: tests/openssl/cmactest_symcrypt
+506/760 Test #506: tests/openssl/cmactest_symcrypt .......................................................................................................   Passed    0.26 sec
+        Start 507: tests/openssl/constant_time_test
+507/760 Test #507: tests/openssl/constant_time_test ......................................................................................................   Passed    0.18 sec
+        Start 508: tests/openssl/constant_time_test_symcrypt
+508/760 Test #508: tests/openssl/constant_time_test_symcrypt .............................................................................................   Passed    0.27 sec
+        Start 509: tests/openssl/crltest
+509/760 Test #509: tests/openssl/crltest .................................................................................................................   Passed    0.19 sec
+        Start 510: tests/openssl/crltest_symcrypt
+510/760 Test #510: tests/openssl/crltest_symcrypt ........................................................................................................   Passed    0.28 sec
+        Start 511: tests/openssl/ct_test
+511/760 Test #511: tests/openssl/ct_test .................................................................................................................   Passed    0.18 sec
+        Start 512: tests/openssl/ct_test_symcrypt
+512/760 Test #512: tests/openssl/ct_test_symcrypt ........................................................................................................   Passed    0.26 sec
+        Start 513: tests/openssl/ctype_internal_test
+513/760 Test #513: tests/openssl/ctype_internal_test .....................................................................................................   Passed    0.18 sec
+        Start 514: tests/openssl/ctype_internal_test_symcrypt
+514/760 Test #514: tests/openssl/ctype_internal_test_symcrypt ............................................................................................   Passed    0.27 sec
+        Start 515: tests/openssl/curve448_internal_test
+515/760 Test #515: tests/openssl/curve448_internal_test ..................................................................................................   Passed    7.47 sec
+        Start 516: tests/openssl/curve448_internal_test_symcrypt
+516/760 Test #516: tests/openssl/curve448_internal_test_symcrypt .........................................................................................   Passed    7.56 sec
+        Start 517: tests/openssl/d2i_test-bad_cert
+517/760 Test #517: tests/openssl/d2i_test-bad_cert .......................................................................................................   Passed    0.18 sec
+        Start 518: tests/openssl/d2i_test-bad_cert_symcrypt
+518/760 Test #518: tests/openssl/d2i_test-bad_cert_symcrypt ..............................................................................................   Passed    0.26 sec
+        Start 519: tests/openssl/d2i_test-bad_generalname
+519/760 Test #519: tests/openssl/d2i_test-bad_generalname ................................................................................................   Passed    0.18 sec
+        Start 520: tests/openssl/d2i_test-bad_generalname_symcrypt
+520/760 Test #520: tests/openssl/d2i_test-bad_generalname_symcrypt .......................................................................................   Passed    0.26 sec
+        Start 521: tests/openssl/d2i_test-bad_bio
+521/760 Test #521: tests/openssl/d2i_test-bad_bio ........................................................................................................   Passed    0.17 sec
+        Start 522: tests/openssl/d2i_test-bad_bio_symcrypt
+522/760 Test #522: tests/openssl/d2i_test-bad_bio_symcrypt ...............................................................................................   Passed    0.26 sec
+        Start 523: tests/openssl/d2i_test-high_tag
+523/760 Test #523: tests/openssl/d2i_test-high_tag .......................................................................................................   Passed    0.18 sec
+        Start 524: tests/openssl/d2i_test-high_tag_symcrypt
+524/760 Test #524: tests/openssl/d2i_test-high_tag_symcrypt ..............................................................................................   Passed    0.26 sec
+        Start 525: tests/openssl/d2i_test-high_tag_integer
+525/760 Test #525: tests/openssl/d2i_test-high_tag_integer ...............................................................................................   Passed    0.18 sec
+        Start 526: tests/openssl/d2i_test-high_tag_integer_symcrypt
+526/760 Test #526: tests/openssl/d2i_test-high_tag_integer_symcrypt ......................................................................................   Passed    0.26 sec
+        Start 527: tests/openssl/d2i_test-int0
+527/760 Test #527: tests/openssl/d2i_test-int0 ...........................................................................................................   Passed    0.18 sec
+        Start 528: tests/openssl/d2i_test-int0_symcrypt
+528/760 Test #528: tests/openssl/d2i_test-int0_symcrypt ..................................................................................................   Passed    0.26 sec
+        Start 529: tests/openssl/d2i_test-int1
+529/760 Test #529: tests/openssl/d2i_test-int1 ...........................................................................................................   Passed    0.18 sec
+        Start 530: tests/openssl/d2i_test-int1_symcrypt
+530/760 Test #530: tests/openssl/d2i_test-int1_symcrypt ..................................................................................................   Passed    0.26 sec
+        Start 531: tests/openssl/d2i_test-intminus1
+531/760 Test #531: tests/openssl/d2i_test-intminus1 ......................................................................................................   Passed    0.18 sec
+        Start 532: tests/openssl/d2i_test-intminus1_symcrypt
+532/760 Test #532: tests/openssl/d2i_test-intminus1_symcrypt .............................................................................................   Passed    0.26 sec
+        Start 533: tests/openssl/d2i_test-int0-any
+533/760 Test #533: tests/openssl/d2i_test-int0-any .......................................................................................................   Passed    0.18 sec
+        Start 534: tests/openssl/d2i_test-int0-any_symcrypt
+534/760 Test #534: tests/openssl/d2i_test-int0-any_symcrypt ..............................................................................................   Passed    0.26 sec
+        Start 535: tests/openssl/d2i_test-int1-any
+535/760 Test #535: tests/openssl/d2i_test-int1-any .......................................................................................................   Passed    0.18 sec
+        Start 536: tests/openssl/d2i_test-int1-any_symcrypt
+536/760 Test #536: tests/openssl/d2i_test-int1-any_symcrypt ..............................................................................................   Passed    0.26 sec
+        Start 537: tests/openssl/d2i_test-intminus1-any
+537/760 Test #537: tests/openssl/d2i_test-intminus1-any ..................................................................................................   Passed    0.18 sec
+        Start 538: tests/openssl/d2i_test-intminus1-any_symcrypt
+538/760 Test #538: tests/openssl/d2i_test-intminus1-any_symcrypt .........................................................................................   Passed    0.26 sec
+        Start 539: tests/openssl/d2i_test-bad-int-pad0
+539/760 Test #539: tests/openssl/d2i_test-bad-int-pad0 ...................................................................................................   Passed    0.18 sec
+        Start 540: tests/openssl/d2i_test-bad-int-pad0_symcrypt
+540/760 Test #540: tests/openssl/d2i_test-bad-int-pad0_symcrypt ..........................................................................................   Passed    0.26 sec
+        Start 541: tests/openssl/d2i_test-bad-int-padminus1
+541/760 Test #541: tests/openssl/d2i_test-bad-int-padminus1 ..............................................................................................   Passed    0.18 sec
+        Start 542: tests/openssl/d2i_test-bad-int-padminus1_symcrypt
+542/760 Test #542: tests/openssl/d2i_test-bad-int-padminus1_symcrypt .....................................................................................   Passed    0.26 sec
+        Start 543: tests/openssl/danetest
+543/760 Test #543: tests/openssl/danetest ................................................................................................................   Passed    0.43 sec
+        Start 544: tests/openssl/danetest_symcrypt
+544/760 Test #544: tests/openssl/danetest_symcrypt .......................................................................................................   Passed    0.53 sec
+        Start 545: tests/openssl/destest
+545/760 Test #545: tests/openssl/destest .................................................................................................................   Passed    0.17 sec
+        Start 546: tests/openssl/destest_symcrypt
+546/760 Test #546: tests/openssl/destest_symcrypt ........................................................................................................   Passed    0.26 sec
+        Start 547: tests/openssl/dhtest
+547/760 Test #547: tests/openssl/dhtest ..................................................................................................................   Passed    0.45 sec
+        Start 548: tests/openssl/dhtest_symcrypt
+548/760 Test #548: tests/openssl/dhtest_symcrypt .........................................................................................................   Passed    1.43 sec
+        Start 549: tests/openssl/drbg_cavs_test
+549/760 Test #549: tests/openssl/drbg_cavs_test ..........................................................................................................   Passed    0.95 sec
+        Start 550: tests/openssl/drbg_cavs_test_symcrypt
+550/760 Test #550: tests/openssl/drbg_cavs_test_symcrypt .................................................................................................   Passed    1.14 sec
+        Start 551: tests/openssl/dsa_no_digest_size_test
+551/760 Test #551: tests/openssl/dsa_no_digest_size_test .................................................................................................   Passed    0.21 sec
+        Start 552: tests/openssl/dsa_no_digest_size_test_symcrypt
+552/760 Test #552: tests/openssl/dsa_no_digest_size_test_symcrypt ........................................................................................   Passed    0.29 sec
+        Start 553: tests/openssl/dsatest
+553/760 Test #553: tests/openssl/dsatest .................................................................................................................   Passed    0.20 sec
+        Start 554: tests/openssl/dsatest_symcrypt
+554/760 Test #554: tests/openssl/dsatest_symcrypt ........................................................................................................   Passed    0.28 sec
+        Start 555: tests/openssl/dtlstest
+555/760 Test #555: tests/openssl/dtlstest ................................................................................................................   Passed    1.46 sec
+        Start 556: tests/openssl/dtlstest_symcrypt
+556/760 Test #556: tests/openssl/dtlstest_symcrypt .......................................................................................................   Passed    1.46 sec
+        Start 557: tests/openssl/dtlsv1listentest
+557/760 Test #557: tests/openssl/dtlsv1listentest ........................................................................................................   Passed    0.19 sec
+        Start 558: tests/openssl/dtlsv1listentest_symcrypt
+558/760 Test #558: tests/openssl/dtlsv1listentest_symcrypt ...............................................................................................   Passed    0.28 sec
+        Start 559: tests/openssl/ec_internal_test
+559/760 Test #559: tests/openssl/ec_internal_test ........................................................................................................   Passed    0.41 sec
+        Start 560: tests/openssl/ec_internal_test_symcrypt
+560/760 Test #560: tests/openssl/ec_internal_test_symcrypt ...............................................................................................   Passed    0.49 sec
+        Start 561: tests/openssl/ecdsatest
+561/760 Test #561: tests/openssl/ecdsatest ...............................................................................................................   Passed   19.70 sec
+        Start 562: tests/openssl/ectest
+562/760 Test #562: tests/openssl/ectest ..................................................................................................................   Passed   14.62 sec
+        Start 563: tests/openssl/ectest_symcrypt
+563/760 Test #563: tests/openssl/ectest_symcrypt .........................................................................................................   Passed   14.27 sec
+        Start 564: tests/openssl/enginetest
+564/760 Test #564: tests/openssl/enginetest ..............................................................................................................   Passed    0.24 sec
+        Start 565: tests/openssl/enginetest_symcrypt
+565/760 Test #565: tests/openssl/enginetest_symcrypt .....................................................................................................   Passed    0.33 sec
+        Start 566: tests/openssl/errtest
+566/760 Test #566: tests/openssl/errtest .................................................................................................................   Passed    0.17 sec
+        Start 567: tests/openssl/errtest_symcrypt
+567/760 Test #567: tests/openssl/errtest_symcrypt ........................................................................................................   Passed    0.26 sec
+        Start 568: tests/openssl/evp_extra_test
+568/760 Test #568: tests/openssl/evp_extra_test ..........................................................................................................   Passed    0.23 sec
+        Start 569: tests/openssl/evp_test-evpciph
+569/760 Test #569: tests/openssl/evp_test-evpciph ........................................................................................................   Passed    0.32 sec
+        Start 570: tests/openssl/evp_test-evpdigest
+570/760 Test #570: tests/openssl/evp_test-evpdigest ......................................................................................................   Passed    0.22 sec
+        Start 571: tests/openssl/evp_test-evpdigest_symcrypt
+571/760 Test #571: tests/openssl/evp_test-evpdigest_symcrypt .............................................................................................   Passed    0.31 sec
+        Start 572: tests/openssl/evp_test-evpencod
+572/760 Test #572: tests/openssl/evp_test-evpencod .......................................................................................................   Passed    0.19 sec
+        Start 573: tests/openssl/evp_test-evpencod_symcrypt
+573/760 Test #573: tests/openssl/evp_test-evpencod_symcrypt ..............................................................................................   Passed    0.27 sec
+        Start 574: tests/openssl/evp_test-evpmac
+574/760 Test #574: tests/openssl/evp_test-evpmac .........................................................................................................   Passed    0.21 sec
+        Start 575: tests/openssl/evp_test-evpmac_symcrypt
+575/760 Test #575: tests/openssl/evp_test-evpmac_symcrypt ................................................................................................   Passed    0.30 sec
+        Start 576: tests/openssl/evp_test-evpcase
+576/760 Test #576: tests/openssl/evp_test-evpcase ........................................................................................................   Passed    0.19 sec
+        Start 577: tests/openssl/evp_test-evpcase_symcrypt
+577/760 Test #577: tests/openssl/evp_test-evpcase_symcrypt ...............................................................................................   Passed    0.28 sec
+        Start 578: tests/openssl/evp_test-evpccmcavs
+578/760 Test #578: tests/openssl/evp_test-evpccmcavs .....................................................................................................   Passed    1.11 sec
+        Start 579: tests/openssl/evp_test-evpccmcavs_symcrypt
+579/760 Test #579: tests/openssl/evp_test-evpccmcavs_symcrypt ............................................................................................   Passed    1.31 sec
+        Start 580: tests/openssl/evp_test-evpkdf
+580/760 Test #580: tests/openssl/evp_test-evpkdf .........................................................................................................   Passed    0.21 sec
+        Start 581: tests/openssl/evp_test-evpkdf_symcrypt
+581/760 Test #581: tests/openssl/evp_test-evpkdf_symcrypt ................................................................................................   Passed    0.28 sec
+        Start 582: tests/openssl/evp_test-evppbe
+582/760 Test #582: tests/openssl/evp_test-evppbe .........................................................................................................   Passed    0.27 sec
+        Start 583: tests/openssl/evp_test-evppbe_symcrypt
+583/760 Test #583: tests/openssl/evp_test-evppbe_symcrypt ................................................................................................   Passed    0.48 sec
+        Start 584: tests/openssl/evp_test-evppkey
+584/760 Test #584: tests/openssl/evp_test-evppkey ........................................................................................................   Passed    4.71 sec
+        Start 585: tests/openssl/evp_test-evppkey_ecc
+585/760 Test #585: tests/openssl/evp_test-evppkey_ecc ....................................................................................................   Passed    2.51 sec
+        Start 586: tests/openssl/evp_test-evppkey_ecc_symcrypt
+586/760 Test #586: tests/openssl/evp_test-evppkey_ecc_symcrypt ...........................................................................................   Passed    2.62 sec
+        Start 587: tests/openssl/exdatatest
+587/760 Test #587: tests/openssl/exdatatest ..............................................................................................................   Passed    0.18 sec
+        Start 588: tests/openssl/exdatatest_symcrypt
+588/760 Test #588: tests/openssl/exdatatest_symcrypt .....................................................................................................   Passed    0.26 sec
+        Start 589: tests/openssl/exptest
+589/760 Test #589: tests/openssl/exptest .................................................................................................................   Passed    0.69 sec
+        Start 590: tests/openssl/exptest_symcrypt
+590/760 Test #590: tests/openssl/exptest_symcrypt ........................................................................................................   Passed    0.79 sec
+        Start 591: tests/openssl/fatalerrtest
+591/760 Test #591: tests/openssl/fatalerrtest ............................................................................................................   Passed    0.20 sec
+        Start 592: tests/openssl/fatalerrtest_symcrypt
+592/760 Test #592: tests/openssl/fatalerrtest_symcrypt ...................................................................................................   Passed    0.29 sec
+        Start 593: tests/openssl/gmdifftest
+593/760 Test #593: tests/openssl/gmdifftest ..............................................................................................................   Passed   20.42 sec
+        Start 594: tests/openssl/gmdifftest_symcrypt
+594/760 Test #594: tests/openssl/gmdifftest_symcrypt .....................................................................................................   Passed   21.08 sec
+        Start 595: tests/openssl/hmactest
+595/760 Test #595: tests/openssl/hmactest ................................................................................................................   Passed    0.17 sec
+        Start 596: tests/openssl/hmactest_symcrypt
+596/760 Test #596: tests/openssl/hmactest_symcrypt .......................................................................................................   Passed    0.26 sec
+        Start 597: tests/openssl/ideatest
+597/760 Test #597: tests/openssl/ideatest ................................................................................................................   Passed    0.18 sec
+        Start 598: tests/openssl/ideatest_symcrypt
+598/760 Test #598: tests/openssl/ideatest_symcrypt .......................................................................................................   Passed    0.26 sec
+        Start 599: tests/openssl/igetest
+599/760 Test #599: tests/openssl/igetest .................................................................................................................   Passed    0.18 sec
+        Start 600: tests/openssl/igetest_symcrypt
+600/760 Test #600: tests/openssl/igetest_symcrypt ........................................................................................................   Passed    0.26 sec
+        Start 601: tests/openssl/md2test
+601/760 Test #601: tests/openssl/md2test .................................................................................................................   Passed    0.17 sec
+        Start 602: tests/openssl/md2test_symcrypt
+602/760 Test #602: tests/openssl/md2test_symcrypt ........................................................................................................   Passed    0.26 sec
+        Start 603: tests/openssl/mdc2test
+603/760 Test #603: tests/openssl/mdc2test ................................................................................................................   Passed    0.18 sec
+        Start 604: tests/openssl/mdc2test_symcrypt
+604/760 Test #604: tests/openssl/mdc2test_symcrypt .......................................................................................................   Passed    0.26 sec
+        Start 605: tests/openssl/memleaktest
+605/760 Test #605: tests/openssl/memleaktest .............................................................................................................   Passed    0.18 sec
+        Start 606: tests/openssl/memleaktest_symcrypt
+606/760 Test #606: tests/openssl/memleaktest_symcrypt ....................................................................................................   Passed    0.26 sec
+        Start 607: tests/openssl/modes_internal_test
+607/760 Test #607: tests/openssl/modes_internal_test .....................................................................................................   Passed    0.20 sec
+        Start 608: tests/openssl/modes_internal_test_symcrypt
+608/760 Test #608: tests/openssl/modes_internal_test_symcrypt ............................................................................................   Passed    0.29 sec
+        Start 609: tests/openssl/ocspapitest
+609/760 Test #609: tests/openssl/ocspapitest .............................................................................................................   Passed    0.19 sec
+        Start 610: tests/openssl/ocspapitest_symcrypt
+610/760 Test #610: tests/openssl/ocspapitest_symcrypt ....................................................................................................   Passed    0.28 sec
+        Start 611: tests/openssl/packettest
+611/760 Test #611: tests/openssl/packettest ..............................................................................................................   Passed    0.17 sec
+        Start 612: tests/openssl/packettest_symcrypt
+612/760 Test #612: tests/openssl/packettest_symcrypt .....................................................................................................   Passed    0.26 sec
+        Start 613: tests/openssl/pbelutest
+613/760 Test #613: tests/openssl/pbelutest ...............................................................................................................   Passed    0.18 sec
+        Start 614: tests/openssl/pbelutest_symcrypt
+614/760 Test #614: tests/openssl/pbelutest_symcrypt ......................................................................................................   Passed    0.26 sec
+        Start 615: tests/openssl/pemtest
+615/760 Test #615: tests/openssl/pemtest .................................................................................................................   Passed    0.18 sec
+        Start 616: tests/openssl/pemtest_symcrypt
+616/760 Test #616: tests/openssl/pemtest_symcrypt ........................................................................................................   Passed    0.26 sec
+        Start 617: tests/openssl/pkey_meth_kdf_test
+617/760 Test #617: tests/openssl/pkey_meth_kdf_test ......................................................................................................   Passed    0.18 sec
+        Start 618: tests/openssl/pkey_meth_kdf_test_symcrypt
+618/760 Test #618: tests/openssl/pkey_meth_kdf_test_symcrypt .............................................................................................   Passed    0.26 sec
+        Start 619: tests/openssl/pkey_meth_test
+619/760 Test #619: tests/openssl/pkey_meth_test ..........................................................................................................   Passed    0.17 sec
+        Start 620: tests/openssl/pkey_meth_test_symcrypt
+620/760 Test #620: tests/openssl/pkey_meth_test_symcrypt .................................................................................................   Passed    0.26 sec
+        Start 621: tests/openssl/rc2test
+621/760 Test #621: tests/openssl/rc2test .................................................................................................................   Passed    0.18 sec
+        Start 622: tests/openssl/rc2test_symcrypt
+622/760 Test #622: tests/openssl/rc2test_symcrypt ........................................................................................................   Passed    0.26 sec
+        Start 623: tests/openssl/rc4test
+623/760 Test #623: tests/openssl/rc4test .................................................................................................................   Passed    0.18 sec
+        Start 624: tests/openssl/rc4test_symcrypt
+624/760 Test #624: tests/openssl/rc4test_symcrypt ........................................................................................................   Passed    0.26 sec
+        Start 625: tests/openssl/rc5test
+625/760 Test #625: tests/openssl/rc5test .................................................................................................................   Passed    0.18 sec
+        Start 626: tests/openssl/rc5test_symcrypt
+626/760 Test #626: tests/openssl/rc5test_symcrypt ........................................................................................................   Passed    0.26 sec
+        Start 627: tests/openssl/rdrand_sanitytest
+627/760 Test #627: tests/openssl/rdrand_sanitytest .......................................................................................................   Passed    0.18 sec
+        Start 628: tests/openssl/rdrand_sanitytest_symcrypt
+628/760 Test #628: tests/openssl/rdrand_sanitytest_symcrypt ..............................................................................................   Passed    0.26 sec
+        Start 629: tests/openssl/recordlentest
+629/760 Test #629: tests/openssl/recordlentest ...........................................................................................................   Passed    0.27 sec
+        Start 630: tests/openssl/recordlentest_symcrypt
+630/760 Test #630: tests/openssl/recordlentest_symcrypt ..................................................................................................   Passed    0.37 sec
+        Start 631: tests/openssl/rsa_complex
+631/760 Test #631: tests/openssl/rsa_complex .............................................................................................................   Passed    0.18 sec
+        Start 632: tests/openssl/rsa_complex_symcrypt
+632/760 Test #632: tests/openssl/rsa_complex_symcrypt ....................................................................................................   Passed    0.27 sec
+        Start 633: tests/openssl/rsa_mp_test
+633/760 Test #633: tests/openssl/rsa_mp_test .............................................................................................................   Passed    0.19 sec
+        Start 634: tests/openssl/rsa_test
+634/760 Test #634: tests/openssl/rsa_test ................................................................................................................   Passed    0.36 sec
+        Start 635: tests/openssl/rsa_test_symcrypt
+635/760 Test #635: tests/openssl/rsa_test_symcrypt .......................................................................................................   Passed    0.39 sec
+        Start 636: tests/openssl/sanitytest
+636/760 Test #636: tests/openssl/sanitytest ..............................................................................................................   Passed    0.18 sec
+        Start 637: tests/openssl/sanitytest_symcrypt
+637/760 Test #637: tests/openssl/sanitytest_symcrypt .....................................................................................................   Passed    0.27 sec
+        Start 638: tests/openssl/servername_test
+638/760 Test #638: tests/openssl/servername_test .........................................................................................................   Passed    0.21 sec
+        Start 639: tests/openssl/servername_test_symcrypt
+639/760 Test #639: tests/openssl/servername_test_symcrypt ................................................................................................   Passed    0.31 sec
+        Start 640: tests/openssl/srptest
+640/760 Test #640: tests/openssl/srptest .................................................................................................................   Passed    0.18 sec
+        Start 641: tests/openssl/srptest_symcrypt
+641/760 Test #641: tests/openssl/srptest_symcrypt ........................................................................................................   Passed    0.26 sec
+        Start 642: tests/openssl/ssl_cert_table_internal_test
+642/760 Test #642: tests/openssl/ssl_cert_table_internal_test ............................................................................................   Passed    0.18 sec
+        Start 643: tests/openssl/ssl_cert_table_internal_test_symcrypt
+643/760 Test #643: tests/openssl/ssl_cert_table_internal_test_symcrypt ...................................................................................   Passed    0.26 sec
+        Start 644: tests/openssl/ssl_test-simple
+644/760 Test #644: tests/openssl/ssl_test-simple .........................................................................................................   Passed    0.26 sec
+        Start 645: tests/openssl/ssl_test-simple_symcrypt
+645/760 Test #645: tests/openssl/ssl_test-simple_symcrypt ................................................................................................   Passed    0.35 sec
+        Start 646: tests/openssl/ssl_test-client_auth
+646/760 Test #646: tests/openssl/ssl_test-client_auth ....................................................................................................   Passed    1.32 sec
+        Start 647: tests/openssl/ssl_test-client_auth_symcrypt
+647/760 Test #647: tests/openssl/ssl_test-client_auth_symcrypt ...........................................................................................   Passed    1.21 sec
+        Start 648: tests/openssl/ssl_test-sni
+648/760 Test #648: tests/openssl/ssl_test-sni ............................................................................................................   Passed    0.41 sec
+        Start 649: tests/openssl/ssl_test-sni_symcrypt
+649/760 Test #649: tests/openssl/ssl_test-sni_symcrypt ...................................................................................................   Passed    0.49 sec
+        Start 650: tests/openssl/ssl_test-dtls_resumption
+650/760 Test #650: tests/openssl/ssl_test-dtls_resumption ................................................................................................   Passed    0.94 sec
+        Start 651: tests/openssl/ssl_test-dtls_resumption_symcrypt
+651/760 Test #651: tests/openssl/ssl_test-dtls_resumption_symcrypt .......................................................................................   Passed    0.81 sec
+        Start 652: tests/openssl/ssl_test-dtls-certstatus
+652/760 Test #652: tests/openssl/ssl_test-dtls-certstatus ................................................................................................   Passed    0.23 sec
+        Start 653: tests/openssl/ssl_test-dtls-certstatus_symcrypt
+653/760 Test #653: tests/openssl/ssl_test-dtls-certstatus_symcrypt .......................................................................................   Passed    0.32 sec
+        Start 654: tests/openssl/ssl_test-renegotiate
+654/760 Test #654: tests/openssl/ssl_test-renegotiate ....................................................................................................   Passed    0.59 sec
+        Start 655: tests/openssl/ssl_test-renegotiate_symcrypt
+655/760 Test #655: tests/openssl/ssl_test-renegotiate_symcrypt ...........................................................................................   Passed    0.61 sec
+        Start 656: tests/openssl/ssl_test-dtls-renegotiate
+656/760 Test #656: tests/openssl/ssl_test-dtls-renegotiate ...............................................................................................   Passed    0.49 sec
+        Start 657: tests/openssl/ssl_test-dtls-renegotiate_symcrypt
+657/760 Test #657: tests/openssl/ssl_test-dtls-renegotiate_symcrypt ......................................................................................   Passed    0.52 sec
+        Start 658: tests/openssl/ssl_test-mac-then-encrypt
+658/760 Test #658: tests/openssl/ssl_test-mac-then-encrypt ...............................................................................................   Passed    0.32 sec
+        Start 659: tests/openssl/ssl_test-mac-then-encrypt_symcrypt
+659/760 Test #659: tests/openssl/ssl_test-mac-then-encrypt_symcrypt ......................................................................................   Passed    0.38 sec
+        Start 660: tests/openssl/ssl_test-ticket-appdata
+660/760 Test #660: tests/openssl/ssl_test-ticket-appdata .................................................................................................   Passed    0.35 sec
+        Start 661: tests/openssl/ssl_test-ticket-appdata_symcrypt
+661/760 Test #661: tests/openssl/ssl_test-ticket-appdata_symcrypt ........................................................................................   Passed    0.42 sec
+        Start 662: tests/openssl/ssl_test-seclevel
+662/760 Test #662: tests/openssl/ssl_test-seclevel .......................................................................................................   Passed    0.43 sec
+        Start 663: tests/openssl/ssl_test-seclevel_symcrypt
+663/760 Test #663: tests/openssl/ssl_test-seclevel_symcrypt ..............................................................................................   Passed    0.55 sec
+        Start 664: tests/openssl/ssl_test-protocol-version
+664/760 Test #664: tests/openssl/ssl_test-protocol-version ...............................................................................................   Passed   14.71 sec
+        Start 665: tests/openssl/ssl_test-protocol-version_symcrypt
+665/760 Test #665: tests/openssl/ssl_test-protocol-version_symcrypt ......................................................................................   Passed   12.03 sec
+        Start 666: tests/openssl/ssl_test-dtls-protocol-version
+666/760 Test #666: tests/openssl/ssl_test-dtls-protocol-version ..........................................................................................   Passed    1.64 sec
+        Start 667: tests/openssl/ssl_test-dtls-protocol-version_symcrypt
+667/760 Test #667: tests/openssl/ssl_test-dtls-protocol-version_symcrypt .................................................................................   Passed    1.40 sec
+        Start 668: tests/openssl/ssl_test-resumption
+668/760 Test #668: tests/openssl/ssl_test-resumption .....................................................................................................   Passed    3.50 sec
+        Start 669: tests/openssl/ssl_test-resumption_symcrypt
+669/760 Test #669: tests/openssl/ssl_test-resumption_symcrypt ............................................................................................   Passed    2.76 sec
+        Start 670: tests/openssl/ssl_test-cert-select
+670/760 Test #670: tests/openssl/ssl_test-cert-select ....................................................................................................   Passed    2.10 sec
+        Start 671: tests/openssl/ssl_test-cert-select_symcrypt
+671/760 Test #671: tests/openssl/ssl_test-cert-select_symcrypt ...........................................................................................   Passed    2.19 sec
+        Start 672: tests/openssl/ssl_test_ctx_test
+672/760 Test #672: tests/openssl/ssl_test_ctx_test .......................................................................................................   Passed    0.21 sec
+        Start 673: tests/openssl/ssl_test_ctx_test_symcrypt
+673/760 Test #673: tests/openssl/ssl_test_ctx_test_symcrypt ..............................................................................................   Passed    0.30 sec
+        Start 674: tests/openssl/sslapitest
+674/760 Test #674: tests/openssl/sslapitest ..............................................................................................................   Passed    5.60 sec
+        Start 675: tests/openssl/sslapitest_symcrypt
+675/760 Test #675: tests/openssl/sslapitest_symcrypt .....................................................................................................   Passed    5.46 sec
+        Start 676: tests/openssl/sslbuffertest
+676/760 Test #676: tests/openssl/sslbuffertest ...........................................................................................................   Passed    0.30 sec
+        Start 677: tests/openssl/sslbuffertest_symcrypt
+677/760 Test #677: tests/openssl/sslbuffertest_symcrypt ..................................................................................................   Passed    0.40 sec
+        Start 678: tests/openssl/sslcorrupttest
+678/760 Test #678: tests/openssl/sslcorrupttest ..........................................................................................................   Passed    0.58 sec
+        Start 679: tests/openssl/sslcorrupttest_symcrypt
+679/760 Test #679: tests/openssl/sslcorrupttest_symcrypt .................................................................................................   Passed    1.54 sec
+        Start 680: tests/openssl/stack_test
+680/760 Test #680: tests/openssl/stack_test ..............................................................................................................   Passed    0.18 sec
+        Start 681: tests/openssl/stack_test_symcrypt
+681/760 Test #681: tests/openssl/stack_test_symcrypt .....................................................................................................   Passed    0.26 sec
+        Start 682: tests/openssl/sysdefaulttest
+682/760 Test #682: tests/openssl/sysdefaulttest ..........................................................................................................   Passed    0.19 sec
+        Start 683: tests/openssl/sysdefaulttest_symcrypt
+683/760 Test #683: tests/openssl/sysdefaulttest_symcrypt .................................................................................................   Passed    0.28 sec
+        Start 684: tests/openssl/test_test
+684/760 Test #684: tests/openssl/test_test ...............................................................................................................   Passed    0.54 sec
+        Start 685: tests/openssl/test_test_symcrypt
+685/760 Test #685: tests/openssl/test_test_symcrypt ......................................................................................................   Passed    0.64 sec
+        Start 686: tests/openssl/threadstest
+686/760 Test #686: tests/openssl/threadstest .............................................................................................................   Passed    0.18 sec
+        Start 687: tests/openssl/threadstest_symcrypt
+687/760 Test #687: tests/openssl/threadstest_symcrypt ....................................................................................................   Passed    0.26 sec
+        Start 688: tests/openssl/time_offset_test
+688/760 Test #688: tests/openssl/time_offset_test ........................................................................................................   Passed    0.18 sec
+        Start 689: tests/openssl/time_offset_test_symcrypt
+689/760 Test #689: tests/openssl/time_offset_test_symcrypt ...............................................................................................   Passed    0.26 sec
+        Start 690: tests/openssl/tls13ccstest
+690/760 Test #690: tests/openssl/tls13ccstest ............................................................................................................   Passed    0.49 sec
+        Start 691: tests/openssl/tls13ccstest_symcrypt
+691/760 Test #691: tests/openssl/tls13ccstest_symcrypt ...................................................................................................   Passed    0.62 sec
+        Start 692: tests/openssl/tls13encryptiontest
+692/760 Test #692: tests/openssl/tls13encryptiontest .....................................................................................................   Passed    0.20 sec
+        Start 693: tests/openssl/tls13encryptiontest_symcrypt
+693/760 Test #693: tests/openssl/tls13encryptiontest_symcrypt ............................................................................................   Passed    0.28 sec
+        Start 694: tests/openssl/v3ext
+694/760 Test #694: tests/openssl/v3ext ...................................................................................................................   Passed    0.18 sec
+        Start 695: tests/openssl/v3ext_symcrypt
+695/760 Test #695: tests/openssl/v3ext_symcrypt ..........................................................................................................   Passed    0.26 sec
+        Start 696: tests/openssl/v3nametest
+696/760 Test #696: tests/openssl/v3nametest ..............................................................................................................   Passed    1.34 sec
+        Start 697: tests/openssl/v3nametest_symcrypt
+697/760 Test #697: tests/openssl/v3nametest_symcrypt .....................................................................................................   Passed    1.47 sec
+        Start 698: tests/openssl/verify_extra_test
+698/760 Test #698: tests/openssl/verify_extra_test .......................................................................................................   Passed    0.20 sec
+        Start 699: tests/openssl/verify_extra_test_symcrypt
+699/760 Test #699: tests/openssl/verify_extra_test_symcrypt ..............................................................................................   Passed    0.28 sec
+        Start 700: tests/openssl/versions
+700/760 Test #700: tests/openssl/versions ................................................................................................................   Passed    0.17 sec
+        Start 701: tests/openssl/versions_symcrypt
+701/760 Test #701: tests/openssl/versions_symcrypt .......................................................................................................   Passed    0.27 sec
+        Start 702: tests/openssl/wpackettest
+702/760 Test #702: tests/openssl/wpackettest .............................................................................................................   Passed    0.18 sec
+        Start 703: tests/openssl/wpackettest_symcrypt
+703/760 Test #703: tests/openssl/wpackettest_symcrypt ....................................................................................................   Passed    0.27 sec
+        Start 704: tests/openssl/x509_check_cert_pkey_test-rsa-cert
+704/760 Test #704: tests/openssl/x509_check_cert_pkey_test-rsa-cert ......................................................................................   Passed    0.18 sec
+        Start 705: tests/openssl/x509_check_cert_pkey_test-rsa-cert_symcrypt
+705/760 Test #705: tests/openssl/x509_check_cert_pkey_test-rsa-cert_symcrypt .............................................................................   Passed    0.28 sec
+        Start 706: tests/openssl/x509_check_cert_pkey_test-mismatched-rsa-cert
+706/760 Test #706: tests/openssl/x509_check_cert_pkey_test-mismatched-rsa-cert ...........................................................................   Passed    0.18 sec
+        Start 707: tests/openssl/x509_check_cert_pkey_test-mismatched-rsa-cert_symcrypt
+707/760 Test #707: tests/openssl/x509_check_cert_pkey_test-mismatched-rsa-cert_symcrypt ..................................................................   Passed    0.27 sec
+        Start 708: tests/openssl/x509_check_cert_pkey_test-dsa-cert
+708/760 Test #708: tests/openssl/x509_check_cert_pkey_test-dsa-cert ......................................................................................   Passed    0.18 sec
+        Start 709: tests/openssl/x509_check_cert_pkey_test-dsa-cert_symcrypt
+709/760 Test #709: tests/openssl/x509_check_cert_pkey_test-dsa-cert_symcrypt .............................................................................   Passed    0.27 sec
+        Start 710: tests/openssl/x509_check_cert_pkey_test-ec-cert
+710/760 Test #710: tests/openssl/x509_check_cert_pkey_test-ec-cert .......................................................................................   Passed    0.18 sec
+        Start 711: tests/openssl/x509_check_cert_pkey_test-ec-cert_symcrypt
+711/760 Test #711: tests/openssl/x509_check_cert_pkey_test-ec-cert_symcrypt ..............................................................................   Passed    0.28 sec
+        Start 712: tests/openssl/x509_check_cert_pkey_test-rsa-req
+712/760 Test #712: tests/openssl/x509_check_cert_pkey_test-rsa-req .......................................................................................   Passed    0.18 sec
+        Start 713: tests/openssl/x509_check_cert_pkey_test-rsa-req_symcrypt
+713/760 Test #713: tests/openssl/x509_check_cert_pkey_test-rsa-req_symcrypt ..............................................................................   Passed    0.27 sec
+        Start 714: tests/openssl/x509_check_cert_pkey_test-mismatched-rsa-req
+714/760 Test #714: tests/openssl/x509_check_cert_pkey_test-mismatched-rsa-req ............................................................................   Passed    0.18 sec
+        Start 715: tests/openssl/x509_check_cert_pkey_test-mismatched-rsa-req_symcrypt
+715/760 Test #715: tests/openssl/x509_check_cert_pkey_test-mismatched-rsa-req_symcrypt ...................................................................   Passed    0.27 sec
+        Start 716: tests/openssl/x509_dup_cert_test
+716/760 Test #716: tests/openssl/x509_dup_cert_test ......................................................................................................   Passed    0.19 sec
+        Start 717: tests/openssl/x509_dup_cert_test_symcrypt
+717/760 Test #717: tests/openssl/x509_dup_cert_test_symcrypt .............................................................................................   Passed    0.28 sec
+        Start 718: tests/openssl/x509_internal_test
+718/760 Test #718: tests/openssl/x509_internal_test ......................................................................................................   Passed    0.18 sec
+        Start 719: tests/openssl/x509_internal_test_symcrypt
+719/760 Test #719: tests/openssl/x509_internal_test_symcrypt .............................................................................................   Passed    0.27 sec
+        Start 720: tests/openssl/x509_time_test
+720/760 Test #720: tests/openssl/x509_time_test ..........................................................................................................   Passed    0.18 sec
+        Start 721: tests/openssl/x509_time_test_symcrypt
+721/760 Test #721: tests/openssl/x509_time_test_symcrypt .................................................................................................   Passed    0.27 sec
+        Start 722: tests/openssl/x509aux
+722/760 Test #722: tests/openssl/x509aux .................................................................................................................   Passed    0.19 sec
+        Start 723: tests/openssl/x509aux_symcrypt
+723/760 Test #723: tests/openssl/x509aux_symcrypt ........................................................................................................   Passed    0.28 sec
+        Start 724: openssl_unsupported_baseline
+724/760 Test #724: openssl_unsupported_baseline ..........................................................................................................   Passed    1.24 sec
+        Start 725: openssl_unsupported_openssl_init_load_config
+725/760 Test #725: openssl_unsupported_openssl_init_load_config ..........................................................................................   Passed    1.35 sec
+        Start 726: openssl_unsupported_ssl_ctx_set_default_verify_paths
+726/760 Test #726: openssl_unsupported_ssl_ctx_set_default_verify_paths ..................................................................................   Passed    1.34 sec
+        Start 727: openssl_unsupported_ssl_ctx_set_default_verify_dir
+727/760 Test #727: openssl_unsupported_ssl_ctx_set_default_verify_dir ....................................................................................   Passed    1.37 sec
+        Start 728: openssl_unsupported_ssl_ctx_set_default_verify_file
+728/760 Test #728: openssl_unsupported_ssl_ctx_set_default_verify_file ...................................................................................   Passed    1.31 sec
+        Start 729: openssl_unsupported_ssl_ctx_load_verify_locations
+729/760 Test #729: openssl_unsupported_ssl_ctx_load_verify_locations .....................................................................................   Passed    1.37 sec
+        Start 730: openssl_unsupported_x509_load_cert_file
+730/760 Test #730: openssl_unsupported_x509_load_cert_file ...............................................................................................   Passed    1.41 sec
+        Start 731: openssl_unsupported_x509_load_crl_file
+731/760 Test #731: openssl_unsupported_x509_load_crl_file ................................................................................................   Passed    1.34 sec
+        Start 732: openssl_unsupported_x509_load_cert_crl_file
+732/760 Test #732: openssl_unsupported_x509_load_cert_crl_file ...........................................................................................   Passed    1.37 sec
+        Start 733: openssl_unsupported_x509_lookup_hash_dir
+733/760 Test #733: openssl_unsupported_x509_lookup_hash_dir ..............................................................................................   Passed    1.32 sec
+        Start 734: openssl_unsupported_x509_lookup_file
+734/760 Test #734: openssl_unsupported_x509_lookup_file ..................................................................................................   Passed    1.33 sec
+        Start 735: openssl_unsupported_x509_store_load_locations
+735/760 Test #735: openssl_unsupported_x509_store_load_locations .........................................................................................   Passed    1.42 sec
+        Start 736: openssl_unsupported_x509_store_set_default_paths
+736/760 Test #736: openssl_unsupported_x509_store_set_default_paths ......................................................................................   Passed    1.34 sec
+        Start 737: tests/c99_compliant
+737/760 Test #737: tests/c99_compliant ...................................................................................................................   Passed    0.05 sec
+        Start 738: tests/compiler_rt
+738/760 Test #738: tests/compiler_rt .....................................................................................................................   Passed    0.30 sec
+        Start 739: tests/create-errors
+739/760 Test #739: tests/create-errors ...................................................................................................................   Passed    0.12 sec
+        Start 740: tests/crypto/enclave_mbedtls
+740/760 Test #740: tests/crypto/enclave_mbedtls ..........................................................................................................   Passed    1.72 sec
+        Start 741: tests/crypto/enclave_openssl
+741/760 Test #741: tests/crypto/enclave_openssl ..........................................................................................................   Passed    0.60 sec
+        Start 742: tests/crypto/host
+742/760 Test #742: tests/crypto/host .....................................................................................................................   Passed    0.02 sec
+        Start 743: tests/data_types
+743/760 Test #743: tests/data_types ......................................................................................................................   Passed    0.08 sec
+        Start 744: tests/edl_opt_out
+744/760 Test #744: tests/edl_opt_out .....................................................................................................................   Passed    0.11 sec
+        Start 745: tests/hexdump
+745/760 Test #745: tests/hexdump .........................................................................................................................   Passed    0.12 sec
+        Start 746: tests/hostcalls
+746/760 Test #746: tests/hostcalls .......................................................................................................................   Passed    0.12 sec
+        Start 747: tests/initializers
+747/760 Test #747: tests/initializers ....................................................................................................................   Passed    0.04 sec
+        Start 748: tests/mixed_c_cpp
+748/760 Test #748: tests/mixed_c_cpp .....................................................................................................................   Passed    0.08 sec
+        Start 749: tests/pingpong
+749/760 Test #749: tests/pingpong ........................................................................................................................   Passed    0.08 sec
+        Start 750: tests/pingpong-shared
+750/760 Test #750: tests/pingpong-shared .................................................................................................................   Passed    0.08 sec
+        Start 751: tests/cmake_name_conflict
+751/760 Test #751: tests/cmake_name_conflict .............................................................................................................   Passed    0.12 sec
+        Start 752: tests/child_process_ecall
+752/760 Test #752: tests/child_process_ecall .............................................................................................................***Skipped   0.00 sec
+        Start 753: tests/child_process_destroy
+753/760 Test #753: tests/child_process_destroy ...........................................................................................................***Skipped   0.00 sec
+        Start 754: tests/child_process_create
+754/760 Test #754: tests/child_process_create ............................................................................................................***Skipped   0.00 sec
+        Start 755: tests/child_process_create_more
+755/760 Test #755: tests/child_process_create_more .......................................................................................................***Skipped   0.00 sec
+        Start 756: tests/sgx_zerobase_macro_only
+756/760 Test #756: tests/sgx_zerobase_macro_only .........................................................................................................***Skipped   0.00 sec
+        Start 757: tests/sgx_zerobase_conf_only
+757/760 Test #757: tests/sgx_zerobase_conf_only ..........................................................................................................***Skipped   0.00 sec
+        Start 758: tests/sgx_zerobase_prop_macro_disable_conf_enable
+758/760 Test #758: tests/sgx_zerobase_prop_macro_disable_conf_enable .....................................................................................***Skipped   0.00 sec
+        Start 759: tests/sgx_zerobase_macro_enable_conf_disable
+759/760 Test #759: tests/sgx_zerobase_macro_enable_conf_disable ..........................................................................................***Skipped   0.00 sec
+        Start 760: tests/libc
+760/760 Test #760: tests/libc ............................................................................................................................   Passed    2.50 sec
+
+100% tests passed, 0 tests failed out of 760
+
+Total Test time (real) = 653.17 sec
+
+The following tests did not run:
+	 63 - tests/sgx/extra_data_with_zerobase (Skipped)
+	 88 - tests/mbedtls_tls_e2e (Skipped)
+	 89 - tests/openssl_tls_e2e (Skipped)
+	 96 - tests/attestation_cert_api_mbedtls (Skipped)
+	 97 - tests/attestation_cert_api_openssl (Skipped)
+	 98 - tests/attestation_plugin_mbedtls (Skipped)
+	 99 - tests/attestation_plugin_openssl (Skipped)
+	100 - tests/attestation_plugin_cert_mbedtls (Skipped)
+	101 - tests/attestation_plugin_cert_openssl (Skipped)
+	103 - tests/bigmalloc (Skipped)
+	286 - tests/report_attestation_without_enclave (Skipped)
+	752 - tests/child_process_ecall (Skipped)
+	753 - tests/child_process_destroy (Skipped)
+	754 - tests/child_process_create (Skipped)
+	755 - tests/child_process_create_more (Skipped)
+	756 - tests/sgx_zerobase_macro_only (Skipped)
+	757 - tests/sgx_zerobase_conf_only (Skipped)
+	758 - tests/sgx_zerobase_prop_macro_disable_conf_enable (Skipped)
+	759 - tests/sgx_zerobase_macro_enable_conf_disable (Skipped)
