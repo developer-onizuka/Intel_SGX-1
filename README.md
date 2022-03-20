@@ -41,6 +41,7 @@ $ cmake -DHAS_QUOTE_PROVIDER=OFF ..
 $ make -j4
 $ cmake -G "Unix Makefiles" -DCMAKE_INSTALL_PREFIX=/usr/local ..
 $ sudo make install
+$ sudo apt install -y libsgx-launch
 $ ctest
 Test project /mnt/sgx/openenclave/build
         Start   1: samples
