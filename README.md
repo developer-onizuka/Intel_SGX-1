@@ -55,9 +55,13 @@ Test project /mnt/sgx/openenclave/build
 Total Test time (real) = 675.24 sec
 ```
 
-# 5. Test it
+# 5. Test HelloWorld
 ```
-
-
+$ cd ../samples/helloworld/
+$ make
+$ make run
+host/helloworldhost ./enclave/helloworldenc.signed
+Hello world from the enclave
+Enclave called into host to print: Hello World!
 ```
 
